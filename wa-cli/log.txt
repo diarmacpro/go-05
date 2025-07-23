@@ -1,0 +1,760 @@
+10:14:22.231 [Client/Socket DEBUG] Dialing wss://web.whatsapp.com/ws/chat[0m
+10:14:22.637 [Client/Socket DEBUG] Frame websocket read pump starting 0xc00017a640[0m
+10:14:22.852 [Client DEBUG] Starting handler queue loop[0m
+10:14:23.203 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="3856057362" type="set" xmlns="md"><pair-device><ref>2@+Ch1g14DTP5Pc0SB48s7KvdmMJSWjLbUeELIlxm0WgivjrtXkrSPeRUM8hwSF5YPD5+Cg3kQ0xAMCbN/kqak513SPQRSlnt3/do=</ref><ref>2@S0h4801lEytH0S/bQ1FBK1ooKu7U9ZKVg6SAblPgxD4tizl92l1sLXxMx/pzWzOlHlY+5yyrqCEy+JtVLxO04bvSxYG1yTlgoXU=</ref><ref>2@XARagQwfPy7y4/zRdV4Vz58j37Z/l3SfUysNSabTS+lfIMjODwIpuMin7LWeu9eg5i8//ITNAIEiXaT9pgMbDJNQYP0Ft6QsmaU=</ref><ref>2@2hTTcUO3dKEgyZX98QPAL+3UtepiWhQHHDCineGqUNgxgon2nhbghUo1Ustrc6uyVV9ZubKfzUbOPBwVPHIooWG3RBhRNBmNsUE=</ref><ref>2@B2z5WcW2y5UNUQwyTbtwEgOCsmoLkyOnO9/uSBLtdXZYrDDl9tdi9uHEEi2KOfnUiPM7c1BMX3R6phI9eWF+cy5iZ5uzutJWyfI=</ref><ref>2@0juIfnlCAewP5XgvnQz+1xcW4crrDakb7GQ8iTko4A9qp4L5Ly4tfSjqUwGkbAYr7JH4iqcRzAWivuaBM02W/OdPAXhN6eOMiaY=</ref></pair-device></iq>[0m
+10:14:23.203 [Client/Send DEBUG] <iq id="3856057362" to="s.whatsapp.net" type="result"/>[0m
+10:14:23.203 [Client/QRChannel DEBUG] Received QR code event, starting to emit codes to channel[0m
+10:14:23.203 [Client/QRChannel DEBUG] Emitting QR code 2@+Ch1g14DTP5Pc0SB48s7KvdmMJSWjLbUeELIlxm0WgivjrtXkrSPeRUM8hwSF5YPD5+Cg3kQ0xAMCbN/kqak513SPQRSlnt3/do=,Bi21T6bu6ZAcsuryPjzHZ27YqqSmWrpfQUB6OfxrVVw=,Vk4U45SxwedAXpZLq3nsSxw30CjSGJpNPjr89GFZAnk=,AZ9yCtJVuzfew3oCy2YA9Tadf0qoA0tKZsIL6RD93jQ=[0m
+█████████████████████████████████████████████████████████████████
+█████████████████████████████████████████████████████████████████
+████ ▄▄▄▄▄ ██▀███ ▄▄▄▄██▄ ▀▄ ▄▄█▀▄▄ ▄  █▄▄▄▀██  ▀█▄ ██ ▄▄▄▄▄ ████
+████ █   █ █▄█▄  ████▄█ █▄▄███▄▄▄▀▀▄██ ██▀███▄▄ █▀▄ ██ █   █ ████
+████ █▄▄▄█ ██▄▄▄ ▄██▄ ▄ ▀▄▄█▄▀ ▄▄▄ █ ▄▄█ ▄ █▄▄▄▀█ ▀▄██ █▄▄▄█ ████
+████▄▄▄▄▄▄▄█ ▀▄▀▄▀ ▀▄█▄█ ▀ ▀▄▀ █▄█ █▄█ █ █▄█ ▀▄█ ▀▄█ █▄▄▄▄▄▄▄████
+████▄▄ ▀▄ ▄▄ ▄▄▀▄▄ ▄▄▄▄█▄▄▄█▄    ▄▄█▄ ▄█▄██▀▄█▄█▄▄▄██ ▄██▀▄█▀████
+█████▀▀█▄▀▄▀▀█▄▄█ ▀▀▀█▄█  ▀▄█▄▄  ▄ ▀ ▀▄█ ▄ ▄█▄██ ▀█ █ ▀▀ ██▄▄████
+█████▀▄█  ▄▀▄▄    █▄██▄ █ █▄█ ▀▄ █▀▄ ██  ▄▄▄▄▀▄▀▄▀▄▄▄█▄▄▄▀ ▄▄████
+████▀█ █▀▄▄█   ▀ ▄▄▄█▀█▀█▀ ▀███ ▄▀ █ ▄  ▀▀▄█▄▄█   ██▄ ██ ▄█▄▄████
+████ ██▀  ▄█▀ █▀█▄ ▄▄  █▄▄▄██▀▄ ▀█▄▀  █▄ ▄█▄▄ ▄▄▄███████▄█▄▀ ████
+████▀ █ █ ▄█▀█▄█▀█▄▄▄██▄▄▀▄▀ █▄ ███▀  █ █▀█▀  █▀▄█ █▄▄▄█▀▄▄█▄████
+████ █▀  ▄▄ ▀█ ▀██▄█ ▄  ▄  █ █▀ ▄▀▄▄▄▄█  █▄  ▄█▄ █▄ █ █  █▄▄ ████
+████▄▄  ▄▀▄▄ █▄ ▀█▀█▀▀▀ ▄▀▀█▀█▀█  █▀█▄▀██ ▄ ▄▄█▀▄▄▄▄█ █▄▄ ██▄████
+████▀▄▀█▀ ▄  ▀▀█  ▄█▄█ ▀█ ▄█▄█▄█▄▄█ ▀█▀  ██▄▄█▄▄ █▄█▄█▄▄  █ ▀████
+██████ ▄ ▄▄▄ ▄█▄▀▄ █▄ ▀▄ █▄    ▄▄▄  ██▄▀▀█ ▀█▀ ▄▀██  ▄▄▄ ▀▄  ████
+████▀█ ▄ █▄█ ▄█ ▄ ▀▄▄ █ ██▄▄██ █▄█  ▄▄▄▄ ▄▄ ▄█▄█▄▄▄▄ █▄█ ▀█▄▄████
+████▄▄▀█  ▄  ▀▀ ▀█▀▄ ▀█▀▀█ ▄▄ ▄▄▄ ▄█ █▀▀ █ ▄▄ █  ▄   ▄   ▄█  ████
+████▄▄▀▀ █▄▀▀ ▄ ▄ █ █▄ ▄▄▄▄▄▄▀ ███▄█▄ ▄█ █▄ ▄ ▄▄▄▀█▀ ▀  █▀█▄ ████
+█████▄██ ▄▄ ▀▀█ █ ▀███▄▀█▀▀█▄▄█▄██▄▀█▀▀▀ ▀▀█  ▀█▄██▀▀▄▄▀ ▀█▀▄████
+████▀ ▀▀ ▀▄▀▀█ ▄█▄█ ▄▄ █ ▄  ▄ ▄ ▄▄█ ▄█▄▄ ██▄ █▄ ▄██▀███▄█ █  ████
+█████ ▄█▀ ▄▀▄▄▄▀  ▀ ▄███▀█▄ ▄ ▀ ▄█ ▄█ █  █▄▀█ ▀▀ ██▄▀ ▄ █▄█ █████
+████ ▀█▄▀█▄▄▀▀▀██▄ ▄█▄  █   █▀ ▄█  █▄ ▄▄ ▀▄▄ ▄█▄▄▀██ █▄██▀▀▀ ████
+████▄▄▄▄▄▄▄▀█ █   ▀ ██▄ ▀ ▀▀ █ ▀▀  █ ▄▄█  ▀▀  ▄█▄ █▀ █ ▄▀▄█  ████
+████▄▀▀█▄▄▄▄ █▄▄ █▀███▄▄▄ █▄█ ▄▄█▄ █ ▄▄█▄██▄▄ █ ▄█▄▀█▀████▄▀▀████
+████ ▀ ▀▀▄▄ █ ▄▄ ▀█ █▄ ▀ ▀▄ █ ▀▀█ ▄▀ █ █ ▄ ▄▄ █▄ █▀▀  ▄ █ █ ▄████
+██████████▄█▀█▄ ▄▀▀█▄▄▄▄▄  ▄██ ▄▄▄   █▄▀▄██▄ ▄█▄ ▄█▀ ▄▄▄ ▄█▀▄████
+████ ▄▄▄▄▄ █ █▀█▀█  ██▄▄▄▀▀▀█  █▄█ ▀▄█▄▄▄▄▀▀▄▄▄█▀▀▀█ █▄█ ██ ▄████
+████ █   █ █▄▀▀▄█▄▄█ ▄▄ ▄ ▄█ ▄ ▄▄▄ ▄▄ █▄ █▄▄ ▄██  ██ ▄▄  █ ▀▄████
+████ █▄▄▄█ █   █   █▀██ ▄ ▀█▀▀  ▄█▀ ▄▄▀█  ▀▄ ▀▀█  ██▄██▄ ▄█▀▄████
+████▄▄▄▄▄▄▄█▄▄█▄▄███▄▄▄██▄▄▄██▄█▄█▄▄████▄▄▄▄▄██▄▄█▄█▄▄▄█▄█▄▄▄████
+█████████████████████████████████████████████████████████████████
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+📱 Scan QR dengan WhatsApp Anda
+10:14:49.657 [Client/Send DEBUG] <iq id="233.173-1" to="s.whatsapp.net" type="get" xmlns="w:p"/>[0m
+10:14:49.872 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-1" t="1753240518" type="result"/>[0m
+10:14:54.370 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="110735796" type="set" xmlns="md"><pair-success><client-props>1801</client-props><platform name="android"/><device-identity><!-- 157 bytes --></device-identity><device jid="6283890184815:36@s.whatsapp.net" lid="182691215491288:36@lid"/></pair-success></iq>[0m
+10:14:54.588 [Client/Send DEBUG] <iq id="110735796" to="s.whatsapp.net" type="result"><pair-device-sign><device-identity key-index="40"><!-- 151 bytes --></device-identity></pair-device-sign></iq>[0m
+10:14:54.588[36m [Client INFO] Successfully paired 6283890184815:36@s.whatsapp.net[0m
+10:14:54.588 [Client/QRChannel DEBUG] Closing channel with status {Event:success Error:<nil> Code: Timeout:0s}[0m
+10:14:54.588 [Client/QRChannel DEBUG] Got signal to stop QR emitter[0m
+✅ Login berhasil!
+10:14:55.108 [Client/Recv DEBUG] <stream:error code="515"/>[0m
+10:14:55.108 [Client/Recv DEBUG] <xmlstreamend/>[0m
+10:14:55.108[36m [Client INFO] Got 515 code, reconnecting...[0m
+10:14:55.108 [Client DEBUG] Closing handler queue loop[0m
+10:14:55.108 [Client/Socket DEBUG] Frame websocket read pump exiting 0xc00017a640[0m
+10:14:55.108 [Client/Socket DEBUG] Dialing wss://web.whatsapp.com/ws/chat[0m
+10:14:55.881 [Client/Socket DEBUG] Frame websocket read pump starting 0xc0002a28c0[0m
+10:14:56.119 [Client DEBUG] Starting handler queue loop[0m
+10:14:56.558 [Client/Recv DEBUG] <success abprops="10" companion_enc_static="lCVJ1q4gaWOiCEAtwYIP27DiSHMqd4v7hWU59k/651A=" creation="1753240522" lid="182691215491288:36@lid" location="lla" props="27" t="1753240525"/>[0m
+10:14:56.558[36m [Client INFO] Successfully authenticated[0m
+10:14:56.559 [Client/Send DEBUG] <iq id="233.173-2" to="s.whatsapp.net" type="get" xmlns="encrypt"><count/></iq>[0m
+10:14:57.196 [Client/Recv DEBUG] <ib from="s.whatsapp.net"><edge_routing><routing_info>080d0802</routing_info></edge_routing></ib>[0m
+10:14:57.196 [Client/Recv DEBUG] <ib from="s.whatsapp.net"><dirty timestamp="1753240526" type="account_sync"/></ib>[0m
+10:14:57.317 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-2" type="result"><count value="0"/></iq>[0m
+10:14:57.317 [Client DEBUG] Database has 0 prekeys, server says we have 0[0m
+10:15:01.470[36m [Client INFO] Uploading 50 new prekeys to server[0m
+10:15:01.471 [Client/Send DEBUG] <iq id="233.173-3" to="s.whatsapp.net" type="set" xmlns="encrypt"><registration>63220d56</registration><type>05</type><identity>564e14e394b1c1e7405e964bab79ec4b1c37d028d2189a4d3e3afcf461590279</identity><list><key><id>000001</id><value>0fd4b20fb55599f872e4dabf622afba01738a5b550d2cd5935e4efbe475e9836</value></key><key><id>000002</id><value>a7d66b17b258b0415333938bd26f5e059e0e8e2256abab738fe667d8d40ce868</value></key><key><id>000003</id><value>8561cca099a3244f1389925cf6e1e8de3ea78b5b140582bcb899a11748b88837</value></key><key><id>000004</id><value>1e3f1687f0b959fa0054f804ad7f3a724c794a093abc08d0d65e14ffe4e6dd77</value></key><key><id>000005</id><value>6cc8c2d559663ba791519f0f77904538b0e84e78843092add3cd8ba9b043946d</value></key><key><id>000006</id><value>61aa51e105b5b54ce8237074665e344c8078110f55d177d2089be2e0ac1ab50d</value></key><key><id>000007</id><value>6d3ff352d6703b7219f37d29d37343325d080308240b13773cfe9d8c3cd84226</value></key><key><id>000008</id><value>26e8cbb6c0cf444cc9922e7263ad33868e314f14efa0fd10c915019d6cc8205f</value></key><key><id>000009</id><value>cb866dfdf7fd24db412cfe25f9e5a25bb5ce214b1d2228eb28fe386cd60dba3e</value></key><key><id>00000a</id><value>ed5ec8b3bb5286214f95d41a1b8fd178ecd1f4ee2e4704654738f02a0a3d9266</value></key><key><id>00000b</id><value>3a64f866ad6eb01b61d8451317c8c25c6fe3815dcf1dce4cbe9a0e35fc015857</value></key><key><id>00000c</id><value>1dfed969d3e32e9df0406b7dbf84a12165fbdf8f223da027e5a2585b30da9e5e</value></key><key><id>00000d</id><value>fd3836595fdfef3e0da4c919c6501fbd18a59fc68f7fa143cd4508aa111dec23</value></key><key><id>00000e</id><value>abea5be6796b6ce172ef9f88511a865e6e7c25094daa6188213250d7a3768971</value></key><key><id>00000f</id><value>368534b98aa7d2311eb53b93123569a1d7148c837708858047a3a2eb43708d72</value></key><key><id>000010</id><value>2ffdab411666f2a329ec6568e342f0faac2df48744c221a511ddfa83acaf6e56</value></key><key><id>000011</id><value>2d756554e3dcef535ab20ff500c68bcfc71a9fca345e14db4bd286383705de43</value></key><key><id>000012</id><value>1b83689007961b6f56cc4f1277d9b1d195ab0db870a20e0b7061be1f0dc6b62d</value></key><key><id>000013</id><value>14d28909c03fff448a1f5f727123b5907864569c2da2325c57a1cf226064cb76</value></key><key><id>000014</id><value>d200928c7f1c967180109127764fcfbf4edb45477cc124d87dad9ea7f94bf079</value></key><key><id>000015</id><value>289cf918f4f595af0ee924b951a1e230f080ed5c4f3f3adb306fc57c5729a348</value></key><key><id>000016</id><value>29272503389b33ca8b49b920346765b80f29f86f3db783087d00f32000222329</value></key><key><id>000017</id><value>a2e49e01274eb181d4ee1b5e1eaefeadfc13d890ac38810d7f7ee531c206d615</value></key><key><id>000018</id><value>d0469f0442b4ea9af9133a1ab27d63bb867acd4cbe271d0df3a5e78a2ef87733</value></key><key><id>000019</id><value>9d40750c9ce59fc62f14e2d29df4d2448744fa2a02b374797a0374b67194e113</value></key><key><id>00001a</id><value>ba135801248e2aee3e00e8a020fce7a58e1635acfe2f4d11d40881e8f9a30e53</value></key><key><id>00001b</id><value>6e58c9f685f009c708d7925b6153f016c373fdfcd685df6b5988eba926afb053</value></key><key><id>00001c</id><value>b6c33d8b91ceb40dcfa6951a5212948dbedd1e7cb1a5e617dc5d6059bfa03677</value></key><key><id>00001d</id><value>1ecf021db96439a8dec10cfc1cd9beb1197a8b6fe84de476ffef9b8ff123fd51</value></key><key><id>00001e</id><value>775224ffb22e567642fa9c176d19974f4b99911d6093bcf2280af8c019a01867</value></key><key><id>00001f</id><value>0239aa1c5f2e4c35c60744c287eb02108b290e6c8f293f4ac4e806698a212d22</value></key><key><id>000020</id><value>a395dc0d7047aa5c1e8d65d2b75653fb952e286d8732b36047f327ca99987267</value></key><key><id>000021</id><value>ebd2462596ab210b47bc95c8153d0fb6e5a89de3c4dfd2b08ea8adbca5214806</value></key><key><id>000022</id><value>5fae7c3290d2d784ff6c5f76002f80eb4ed413892858a00138c77774677cd440</value></key><key><id>000023</id><value>02c93d181fa9448e015e5315e4db78a31154d74a7b41204c9a88cfc15284344f</value></key><key><id>000024</id><value>55c6ba161bda897dc1b101d784aaba4109cdfb759de78191bf2e4dd42fc78020</value></key><key><id>000025</id><value>f00a7fa0f7cafa5c3e863b9fadd1e6dd40fa4ff5946d8d70ed54862b92e99776</value></key><key><id>000026</id><value>627c526a92e80b3a4c8795d75e5a62ca3e7ce64c3e14a980eb38f1209938aa35</value></key><key><id>000027</id><value>d6138035f53061bf0b900c44b00add99ad492f5e0ddbafdb032e10cb34a93168</value></key><key><id>000028</id><value>ea859b4229cc1ddf46c9dd1c0c464289cdb3ecf70e0e8373193ffe4f4a28e669</value></key><key><id>000029</id><value>378efb806d0c1303a3f02d5807f6414f8dd0ef06eeb9ac2f4834e2df386d632a</value></key><key><id>00002a</id><value>258cfbd2ffb1726353de7180ac6ff158a92c8867182e3f0712a2d23b75bfa869</value></key><key><id>00002b</id><value>196105b53a3af28919d08cb9d69c842687549a08545271170b52093288ac7371</value></key><key><id>00002c</id><value>efd60e90903bf4a916c4b1b4b725897f6d3f99744ae3284e650dff97c110352f</value></key><key><id>00002d</id><value>d5a84bf2bee6939dc2f330fa69a2ef9547b8111eb1986ebc24f9634f1ebb2c68</value></key><key><id>00002e</id><value>cfa6ae8d6691107e234b71e249fb6b479f0259533e462f84f0199950c008b824</value></key><key><id>00002f</id><value>1fc001881c02d2c65d9cf925f178fac4c90dbd5c56d55348214cebeebf708921</value></key><key><id>000030</id><value>2c53ef51ab00f9060d95ab03fbede63a03100c3ee9ac87b04bf0a61e6f11d029</value></key><key><id>000031</id><value>47e21f6993584c2005ed4f66b500fcd4dddaf9743ef45e2c2706fc73e242d031</value></key><key><id>000032</id><value>04973f80d2d93486077ea5723a3c1d6e97e7025c19a50a6de6279a601a5a9a7b</value></key></list><skey><id>000001</id><value>a0ff30eb946a0d446b6ea67f37c61056abfe8300298e3d7dacdb1d22fc0ae05f</value><signature>944ebdac352ee83549e6679935dde776672f5c790971caf73ad50651bf8bb366ba10a22f1a3e075ebffdf2140af694fb5c40b8d7482125986f26ac97b3f63c84</signature></skey></iq>[0m
+10:15:02.111 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-3" type="result"/>[0m
+10:15:02.111 [Client DEBUG] Got response to uploading prekeys[0m
+10:15:02.200 [Client/Send DEBUG] <iq id="233.173-4" to="s.whatsapp.net" type="get" xmlns="encrypt"><count/></iq>[0m
+10:15:02.557 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-4" type="result"><count value="50"/></iq>[0m
+10:15:02.557 [Client DEBUG] Prekey count after upload: 50[0m
+10:15:02.557 [Client/Send DEBUG] <iq id="233.173-5" to="s.whatsapp.net" type="set" xmlns="passive"><active/></iq>[0m
+10:15:02.793 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-5" type="result"><active/></iq>[0m
+10:15:02.969 [Client/Recv DEBUG] <ib from="s.whatsapp.net"><offline count="0"/></ib>[0m
+10:15:03.576 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="49A7D4B315ECD46DC2013C2503584E96" t="1753240532" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 165 bytes --></enc></message>[0m
+10:15:03.576 [Client DEBUG] Decrypting message from 6283890184815@s.whatsapp.net[0m
+10:15:03.576 [Client/Send DEBUG] <ack class="message" id="49A7D4B315ECD46DC2013C2503584E96" to="6283890184815@s.whatsapp.net"/>[0m
+10:15:03.581 [Client/Recv DEBUG] <notification from="6283890184815@s.whatsapp.net" id="3683775573" t="1753240526" type="account_sync"><devices dhash="2:hjY+cgyR"><device jid="6283890184815@s.whatsapp.net"/><device jid="6283890184815:12@s.whatsapp.net" key-index="6"/><device jid="6283890184815:35@s.whatsapp.net" key-index="39"/><device jid="6283890184815:36@s.whatsapp.net" key-index="40"/><key-index-list ts="1753240520">0a150881f5836810c8a781c406182822040006272828001240de1757c412f3a43ebe89628740367290f975bda6410cc9ca27c21dffe7ef4358878e525cde02859f50ee9070c6cb8a72c90bee2e7432ebef68b68113f3892305</key-index-list></devices></notification>[0m
+10:15:03.581 [Database DEBUG] No sessions or sender keys found to migrate from 6283890184815 to 182691215491288_1[0m
+💬 Pesan masuk: 
+10:15:03.898 [Client/Send DEBUG] <receipt id="49A7D4B315ECD46DC2013C2503584E96" to="6283890184815@c.us" type="peer_msg"/>[0m
+10:15:03.899 [Client/Send DEBUG] <ack class="notification" id="3683775573" to="6283890184815@s.whatsapp.net" type="account_sync"/>[0m
+10:15:03.899 [Client DEBUG] Ignoring own device change notification, device list not cached[0m
+10:15:03.899 [Client/Send DEBUG] <receipt id="49A7D4B315ECD46DC2013C2503584E96" recipient="6283890184815@s.whatsapp.net" to="6283890184815@s.whatsapp.net" type="sender"/>[0m
+10:15:04.135 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="49A7D4B315ECD46DC2013C2503584E96" type="peer_msg"/>[0m
+10:15:06.375 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="C5C36621A01EC39885EBF8D6ABEEB884" t="1753240535" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 2423 bytes --></enc></message>[0m
+10:15:06.375 [Client DEBUG] Decrypting message from 6283890184815@s.whatsapp.net[0m
+10:15:06.375 [Client/Send DEBUG] <ack class="message" id="C5C36621A01EC39885EBF8D6ABEEB884" to="6283890184815@s.whatsapp.net"/>[0m
+💬 Pesan masuk: 
+10:15:06.634 [Client DEBUG] Got 34 new app state keys[0m
+10:15:06.636 [Client/Send DEBUG] <receipt id="C5C36621A01EC39885EBF8D6ABEEB884" to="6283890184815@c.us" type="peer_msg"/>[0m
+10:15:06.636 [Client/Send DEBUG] <receipt id="C5C36621A01EC39885EBF8D6ABEEB884" recipient="6283890184815@s.whatsapp.net" to="6283890184815@s.whatsapp.net" type="sender"/>[0m
+10:15:06.708 [Client DEBUG] Received app state sync key 000000005126 (ts: 0)[0m
+10:15:06.776 [Client DEBUG] Received app state sync key 000000005127 (ts: 0)[0m
+10:15:06.851 [Client DEBUG] Received app state sync key 000000005124 (ts: 0)[0m
+10:15:06.881 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="C5C36621A01EC39885EBF8D6ABEEB884" type="peer_msg"/>[0m
+10:15:06.920 [Client DEBUG] Received app state sync key 000000005125 (ts: 0)[0m
+10:15:06.986 [Client DEBUG] Received app state sync key 000000005122 (ts: 0)[0m
+10:15:07.059 [Client DEBUG] Received app state sync key 000000005123 (ts: 0)[0m
+10:15:07.127 [Client DEBUG] Received app state sync key 00000000512E (ts: 1752735609011)[0m
+10:15:07.192 [Client DEBUG] Received app state sync key 00000000512F (ts: 1752741393368)[0m
+10:15:07.260 [Client DEBUG] Received app state sync key 00000000512C (ts: 0)[0m
+10:15:07.318 [Client DEBUG] Received app state sync key 00000000512D (ts: 1752735522443)[0m
+10:15:07.381 [Client DEBUG] Received app state sync key 00000000512A (ts: 1752735248616)[0m
+10:15:07.443 [Client DEBUG] Received app state sync key 00000000512B (ts: 0)[0m
+10:15:07.504 [Client DEBUG] Received app state sync key 000000005128 (ts: 0)[0m
+10:15:07.576 [Client DEBUG] Received app state sync key 000000005129 (ts: 1752735042927)[0m
+10:15:07.666 [Client DEBUG] Received app state sync key 000000005136 (ts: 0)[0m
+10:15:07.727 [Client DEBUG] Received app state sync key 000000005137 (ts: 0)[0m
+10:15:07.784 [Client DEBUG] Received app state sync key 000000005134 (ts: 1752808701383)[0m
+10:15:07.844 [Client DEBUG] Received app state sync key 000000005135 (ts: 0)[0m
+10:15:07.927 [Client DEBUG] Received app state sync key 000000005132 (ts: 1752805607313)[0m
+10:15:07.986 [Client/Recv DEBUG] <notification from="6281399900694@s.whatsapp.net" id="1952855094" lid="178988752326666@lid" t="1753240535" type="devices"><add device_hash="2:ZDNNIkCS" device_lid_hash="2:KhdEfV7e"><device jid="6281399900694:93@s.whatsapp.net" key-index="2" lid="178988752326666:93@lid"/><key-index-list ts="1753240532">0a1508df9fff9a0110d4a781c4061802220300010228001240599867dca92e83d52a8eb42e8c7780805a63652bb49108015158afb151bf230b450bc4bf085c714d3b3c25d324923064ca43b58b393cd7e6fb757278dad71708</key-index-list></add></notification>[0m
+10:15:07.989 [Client/Send DEBUG] <ack class="notification" id="1952855094" to="6281399900694@s.whatsapp.net" type="devices"/>[0m
+10:15:07.994 [Client DEBUG] Received app state sync key 000000005133 (ts: 1752805653009)[0m
+10:15:08.059 [Client DEBUG] No device list cached for 6281399900694@s.whatsapp.net, ignoring device list notification[0m
+10:15:08.109 [Client DEBUG] Received app state sync key 000000005130 (ts: 1752804819992)[0m
+10:15:08.194 [Client DEBUG] Received app state sync key 000000005131 (ts: 1752805597321)[0m
+10:15:08.267 [Client DEBUG] Received app state sync key 00000000513E (ts: 1752820119433)[0m
+10:15:08.302 [Client/Recv DEBUG] <notification from="601160959861@s.whatsapp.net" id="1733793140" lid="164708170645567@lid" t="1753240536" type="devices"><remove device_hash="2:uki2M4iQ" device_lid_hash="2:IB76HB5I"><device jid="601160959861:61@s.whatsapp.net" key-index="10" lid="164708170645567:61@lid"/><key-index-list ts="1753240528"/></remove></notification>[0m
+10:15:08.303 [Client/Send DEBUG] <ack class="notification" id="1733793140" to="601160959861@s.whatsapp.net" type="devices"/>[0m
+10:15:08.318 [Client DEBUG] Received app state sync key 00000000513F (ts: 1752820181131)[0m
+10:15:08.401 [Client DEBUG] Received app state sync key 00000000513C (ts: 1752812284668)[0m
+10:15:08.459 [Client DEBUG] Received app state sync key 00000000513D (ts: 1752818904207)[0m
+10:15:08.792 [Client DEBUG] Received app state sync key 00000000513A (ts: 0)[0m
+10:15:08.859 [Client DEBUG] Received app state sync key 00000000513B (ts: 1752812029535)[0m
+10:15:08.932 [Client DEBUG] Received app state sync key 000000005138 (ts: 0)[0m
+10:15:08.993 [Client DEBUG] Received app state sync key 000000005139 (ts: 1752810579102)[0m
+10:15:09.117 [Client DEBUG] Received app state sync key 000000005142 (ts: 1752830546944)[0m
+10:15:09.276 [Client DEBUG] Received app state sync key 000000005143 (ts: 1752949912117)[0m
+10:15:09.344 [Client DEBUG] Received app state sync key 000000005140 (ts: 1752820187945)[0m
+10:15:09.417 [Client DEBUG] Received app state sync key 000000005141 (ts: 1752830506543)[0m
+10:15:09.419 [Client/Send DEBUG] <iq id="233.173-6" to="s.whatsapp.net" type="set" xmlns="w:sync:app:state"><sync><collection name="critical_block" return_snapshot="true"/></sync></iq>[0m
+10:15:09.493 [Client DEBUG] No device list cached for 601160959861@s.whatsapp.net, ignoring device list notification[0m
+10:15:09.624 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AC39667FC468E9815F1" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240538" type="media"><reporting><reporting_tag>0109d3d466e1bf5d7fc8743c6f44a7d12893cf47</reporting_tag><reporting_token v="2">8ed4ea0e886cde307e7729841d5db1df</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 748 bytes --></enc></message>[0m
+10:15:09.692 [Client DEBUG] Decrypting message from 6285739747665@s.whatsapp.net in 120363398594733354@g.us[0m
+10:15:09.693 [Database DEBUG] No sessions or sender keys found to migrate from 6285739747665 to 23266458644498_1[0m
+10:15:09.694[33m [Client WARN] Error decrypting message 3AC39667FC468E9815F1 from 6285739747665@s.whatsapp.net in 120363398594733354@g.us: failed to decrypt group message: no sender key for 23266458644498_1:0 in 120363398594733354@g.us[0m
+10:15:09.701 [Client/Send DEBUG] <ack class="message" id="3AC39667FC468E9815F1" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:15:09.784 [Client DEBUG] Push name of 6285739747665@s.whatsapp.net changed from  to amengg, dispatching event[0m
+10:15:09.859 [Client/Send DEBUG] <receipt id="3AC39667FC468E9815F1" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us" type="retry"><retry count="1" id="3AC39667FC468E9815F1" t="1753240538" v="1"/><registration>63220d56</registration><keys><type>05</type><identity>564e14e394b1c1e7405e964bab79ec4b1c37d028d2189a4d3e3afcf461590279</identity><key><id>000033</id><value>620a1013494a8d1e07ed795b86ec925d06eb05e413838a2077f176fa2e2f0d6d</value></key><skey><id>000001</id><value>a0ff30eb946a0d446b6ea67f37c61056abfe8300298e3d7dacdb1d22fc0ae05f</value><signature>944ebdac352ee83549e6679935dde776672f5c790971caf73ad50651bf8bb366ba10a22f1a3e075ebffdf2140af694fb5c40b8d7482125986f26ac97b3f63c84</signature></skey><device-identity><!-- 185 bytes --></device-identity></keys></receipt>[0m
+10:15:09.901 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-6" type="result"><sync><collection name="critical_block"><snapshot><!-- 306 bytes --></snapshot></collection></sync></iq>[0m
+10:15:09.901 [Client/Send DEBUG] <iq id="233.173-7" to="s.whatsapp.net" type="set" xmlns="w:m"><media_conn/></iq>[0m
+10:15:10.096 [Client/Recv DEBUG] <ack class="receipt" from="120363398594733354@g.us" id="3AC39667FC468E9815F1" participant="6285739747665@s.whatsapp.net" type="retry"/>[0m
+10:15:10.138 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-7" type="result"><media_conn auth="Ac2yiUGZ7XqXzIpI_FNQsOX2lwBRFXTDBClBnGCoYCJKXA" auth_ttl="21600" max_buckets="12" ttl="300"><host class="fna" fallback_class="pop" fallback_hostname="media-cgk1-1.cdn.whatsapp.net" fallback_ip4="157.240.208.60" fallback_ip6="2a03:2880:f24d:c8:face:b00c:0:167" hostname="media.fmlg11-1.fna.whatsapp.net" ip4="182.253.91.32" ip6="2404:8000:1091:0:face:b00c:3333:7020" type="primary"><upload/><download><video/><image/><gif/><sticker/><newsletter-image/><newsletter-video/><newsletter-thumbnail-link/><newsletter-sticker/><newsletter-document/><newsletter-thumbnail-document/><newsletter-gif/><newsletter-ptt/><newsletter-ptv/><newsletter-audio/><thumbnail-image/><thumbnail-video/></download><download_buckets><0/></download_buckets></host><host class="fna" fallback_class="pop" fallback_hostname="media-cgk1-2.cdn.whatsapp.net" fallback_ip4="31.13.95.60" fallback_ip6="2a03:2880:f24d:1c3:face:b00c:0:167" hostname="media.fmlg11-1.fna.whatsapp.net" ip4="182.253.91.32" ip6="2404:8000:1091:0:face:b00c:3333:7020" type="primary"><upload/><download><video/><image/><gif/><sticker/><thumbnail-image/><thumbnail-video/><newsletter-ptv/></download><download_buckets><101/><107/><108/><111/></download_buckets></host><host class="fna" fallback_class="pop" fallback_hostname="media-cgk2-1.cdn.whatsapp.net" fallback_ip4="57.144.101.32" fallback_ip6="2a03:2880:f329:122:face:b00c:0:167" hostname="media.fmlg11-1.fna.whatsapp.net" ip4="182.253.91.32" ip6="2404:8000:1091:0:face:b00c:3333:7020" type="primary"><upload/><download><video/><image/><gif/><sticker/><thumbnail-image/><thumbnail-video/><newsletter-ptv/></download><download_buckets><102/><103/><104/><106/></download_buckets></host><host class="fna" fallback_class="pop" fallback_hostname="media-cgk2-2.cdn.whatsapp.net" fallback_ip4="57.144.193.32" fallback_ip6="2a03:2880:f360:120:face:b00c:0:167" hostname="media.fmlg11-1.fna.whatsapp.net" ip4="182.253.91.32" ip6="2404:8000:1091:0:face:b00c:3333:7020" type="primary"><upload/><download><video/><image/><gif/><sticker/><thumbnail-image/><thumbnail-video/><newsletter-ptv/></download><download_buckets><100/><105/><110/></download_buckets></host><host class="pop" fallback_class="pop" fallback_hostname="media-sin11-2.cdn.whatsapp.net" fallback_ip4="57.144.151.32" fallback_ip6="2a03:2880:f34b:120:face:b00c:0:167" hostname="media-cgk1-1.cdn.whatsapp.net" ip4="157.240.208.60" ip6="2a03:2880:f24d:c8:face:b00c:0:167" type="primary"><download><ppic/><md-app-state/><kyc-id/><thumbnail-gif/><thumbnail-document/><biz-cover-photo/><ptv/><ptt/><audio/><document/><thumbnail-link/><md-msg-hist/></download><download_buckets><0/></download_buckets></host><host class="pop" hostname="mmg.whatsapp.net" type="fallback"/></media_conn></iq>[0m
+10:15:10.632 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AC39667FC468E9815F1" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240539" type="media"><enc mediatype="sticker" type="pkmsg" v="2"><!-- 839 bytes --></enc><reporting><reporting_tag>01097ed8889bdb34c86bb14f3fbf5984120c2e38</reporting_tag><reporting_token v="2">8ed4ea0e886cde307e7729841d5db1df</reporting_token></reporting></message>[0m
+10:15:10.632 [Client DEBUG] Decrypting message from 6285739747665@s.whatsapp.net in 120363398594733354@g.us[0m
+10:15:10.633 [Client/Send DEBUG] <ack class="message" id="3AC39667FC468E9815F1" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:15:10.692 [Client DEBUG] Full sync of app state critical_block completed. Current version: 17[0m
+10:15:10.693 [Client/Send DEBUG] <iq id="233.173-8" to="s.whatsapp.net" type="set" xmlns="w:sync:app:state"><sync><collection name="critical_unblock_low" return_snapshot="true"/></sync></iq>[0m
+10:15:10.950 [Client DEBUG] Stored message secret key for 3AC39667FC468E9815F1[0m
+💬 Pesan masuk: 
+10:15:10.950 [Client/Send DEBUG] <receipt id="3AC39667FC468E9815F1" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us" type="inactive"/>[0m
+10:15:10.974 [Client/Recv DEBUG] <notification from="601160959861@s.whatsapp.net" id="2332585526" lid="164708170645567@lid" t="1753240538" type="devices"><add device_hash="2:unG2cSt1" device_lid_hash="2:hUNDrjP4"><device jid="601160959861:64@s.whatsapp.net" key-index="13" lid="164708170645567:64@lid"/><key-index-list ts="1753240535">0a1708c9b996b20710d7a781c406180d220500020c0b0d280012403d3a475c8b68f9878b41444d8c2d77e0464266615d7c3e1d366c3ad358b3171a8983ef7a44c52cc1f4da147cd32a3f7d3abda42eff365b3adeb6bc3bcca4b18c</key-index-list></add></notification>[0m
+10:15:10.974 [Client DEBUG] No device list cached for 601160959861@s.whatsapp.net, ignoring device list notification[0m
+10:15:10.975 [Client/Send DEBUG] <ack class="notification" id="2332585526" to="601160959861@s.whatsapp.net" type="devices"/>[0m
+10:15:11.174 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-8" type="result"><sync><collection name="critical_unblock_low"><snapshot><!-- 307 bytes --></snapshot><patches><patch><!-- 644 bytes --></patch><patch><!-- 644 bytes --></patch><patch><!-- 628 bytes --></patch></patches></collection></sync></iq>[0m
+10:15:12.366 [Client DEBUG] Mass inserting app state snapshot with 628 contacts into the store[0m
+10:15:12.373[33m [Database WARN] Duplicate contact info for 628970517762@s.whatsapp.net in mass insert[0m
+10:15:12.373[33m [Database WARN] Duplicate contact info for 6281352544976@s.whatsapp.net in mass insert[0m
+10:15:12.373[33m [Database WARN] Duplicate contact info for 6282169515334@s.whatsapp.net in mass insert[0m
+10:15:12.442 [Client DEBUG] Full sync of app state critical_unblock_low completed. Current version: 24[0m
+10:15:12.445 [Client/Send DEBUG] <iq id="233.173-9" to="s.whatsapp.net" type="set" xmlns="w:sync:app:state"><sync><collection name="regular_high" return_snapshot="true"/></sync></iq>[0m
+10:15:12.924 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-9" type="result"><sync><collection name="regular_high"><snapshot><!-- 306 bytes --></snapshot></collection></sync></iq>[0m
+10:15:14.000 [Client DEBUG] Full sync of app state regular_high completed. Current version: 44[0m
+10:15:14.000 [Client/Send DEBUG] <iq id="233.173-10" to="s.whatsapp.net" type="set" xmlns="w:sync:app:state"><sync><collection name="regular" return_snapshot="true"/></sync></iq>[0m
+10:15:14.480 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-10" type="result"><sync><collection name="regular"><snapshot><!-- 307 bytes --></snapshot></collection></sync></iq>[0m
+10:15:15.109 [Client DEBUG] Full sync of app state regular completed. Current version: 96[0m
+10:15:15.109 [Client/Send DEBUG] <iq id="233.173-11" to="s.whatsapp.net" type="set" xmlns="w:sync:app:state"><sync><collection name="regular_low" return_snapshot="true"/></sync></iq>[0m
+10:15:15.589 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-11" type="result"><sync><collection name="regular_low"><snapshot><!-- 306 bytes --></snapshot></collection></sync></iq>[0m
+10:15:16.501 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="76062E6EEA5F1978FFE14397BA7D1530" notify="W" participant="6283809268748@s.whatsapp.net" participant_lid="164729226010722@lid" t="1753240545" type="text"><reporting><reporting_tag>01098ce86716cf8b2453e6d3ab7947f0970b8f83</reporting_tag><reporting_token v="2">29dade1a58e53fdec6cb58ddbe38e5bf</reporting_token></reporting><enc type="skmsg" v="2"><!-- 267 bytes --></enc></message>[0m
+10:15:16.541 [Client DEBUG] Full sync of app state regular_low completed. Current version: 81[0m
+10:15:16.628 [Client DEBUG] Decrypting message from 6283809268748@s.whatsapp.net in 120363398594733354@g.us[0m
+10:15:16.630 [Database DEBUG] No sessions or sender keys found to migrate from 6283809268748 to 164729226010722_1[0m
+10:15:16.630[33m [Client WARN] Error decrypting message 76062E6EEA5F1978FFE14397BA7D1530 from 6283809268748@s.whatsapp.net in 120363398594733354@g.us: failed to decrypt group message: no sender key for 164729226010722_1:0 in 120363398594733354@g.us[0m
+10:15:16.633 [Client/Send DEBUG] <ack class="message" id="76062E6EEA5F1978FFE14397BA7D1530" participant="6283809268748@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:15:16.708 [Client DEBUG] Push name of 6283809268748@s.whatsapp.net changed from  to W, dispatching event[0m
+10:15:16.789 [Client/Send DEBUG] <receipt id="76062E6EEA5F1978FFE14397BA7D1530" participant="6283809268748@s.whatsapp.net" to="120363398594733354@g.us" type="retry"><retry count="1" id="76062E6EEA5F1978FFE14397BA7D1530" t="1753240545" v="1"/><registration>63220d56</registration><keys><type>05</type><identity>564e14e394b1c1e7405e964bab79ec4b1c37d028d2189a4d3e3afcf461590279</identity><key><id>000034</id><value>fbec73f1a5fdf20d64df308d83722267cfe75bdfed38e9feb737ce1d09ab2760</value></key><skey><id>000001</id><value>a0ff30eb946a0d446b6ea67f37c61056abfe8300298e3d7dacdb1d22fc0ae05f</value><signature>944ebdac352ee83549e6679935dde776672f5c790971caf73ad50651bf8bb366ba10a22f1a3e075ebffdf2140af694fb5c40b8d7482125986f26ac97b3f63c84</signature></skey><device-identity><!-- 185 bytes --></device-identity></keys></receipt>[0m
+10:15:17.025 [Client/Recv DEBUG] <ack class="receipt" from="120363398594733354@g.us" id="76062E6EEA5F1978FFE14397BA7D1530" participant="6283809268748@s.whatsapp.net" type="retry"/>[0m
+10:15:17.580 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="76062E6EEA5F1978FFE14397BA7D1530" notify="W" participant="6283809268748@s.whatsapp.net" participant_lid="164729226010722@lid" t="1753240546" type="text"><enc type="pkmsg" v="2"><!-- 343 bytes --></enc><reporting><reporting_tag>0109ce966dfc9e7d304ba7f5d4d10904f940c767</reporting_tag><reporting_token v="2">29dade1a58e53fdec6cb58ddbe38e5bf</reporting_token></reporting></message>[0m
+10:15:17.580 [Client DEBUG] Decrypting message from 6283809268748@s.whatsapp.net in 120363398594733354@g.us[0m
+10:15:17.581 [Client/Send DEBUG] <ack class="message" id="76062E6EEA5F1978FFE14397BA7D1530" participant="6283809268748@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:15:17.822 [Client DEBUG] Stored message secret key for 76062E6EEA5F1978FFE14397BA7D1530[0m
+💬 Pesan masuk: 
+10:15:17.822 [Client/Send DEBUG] <receipt id="76062E6EEA5F1978FFE14397BA7D1530" participant="6283809268748@s.whatsapp.net" to="120363398594733354@g.us" type="inactive"/>[0m
+10:15:17.851 [Client/Recv DEBUG] <notification from="6281322243926@s.whatsapp.net" id="4214819604" lid="152252429893854@lid" t="1753240543" type="devices"><remove device_hash="2:A+wDVgB4" device_lid_hash="2:6oDvERzE"><device jid="6281322243926:92@s.whatsapp.net" key-index="24" lid="152252429893854:92@lid"/><key-index-list ts="1753236633"/></remove></notification>[0m
+10:15:17.852 [Client/Send DEBUG] <ack class="notification" id="4214819604" to="6281322243926@s.whatsapp.net" type="devices"/>[0m
+10:15:17.910 [Client DEBUG] No device list cached for 6281322243926@s.whatsapp.net, ignoring device list notification[0m
+10:15:18.264 [Client/Send DEBUG] <iq id="233.173-12" to="s.whatsapp.net" type="get" xmlns="w:p"/>[0m
+10:15:18.500 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-12" t="1753240547" type="result"/>[0m
+10:15:18.984 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="26BE59EEF0B26D4C07B8D71A8EA12B8C" t="1753240548" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 567 bytes --></enc></message>[0m
+10:15:18.984 [Client DEBUG] Decrypting message from 6283890184815@s.whatsapp.net[0m
+10:15:18.984 [Client/Send DEBUG] <ack class="message" id="26BE59EEF0B26D4C07B8D71A8EA12B8C" to="6283890184815@s.whatsapp.net"/>[0m
+10:15:18.987 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="BF66FD8C1A192109C487274A58CC36A6" t="1753240548" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 567 bytes --></enc></message>[0m
+💬 Pesan masuk: 
+10:15:19.049 [Client DEBUG] Decrypting message from 6283890184815@s.whatsapp.net[0m
+10:15:19.052 [Client/Send DEBUG] <receipt id="26BE59EEF0B26D4C07B8D71A8EA12B8C" to="6283890184815@c.us" type="hist_sync"/>[0m
+10:15:19.052 [Client/Send DEBUG] <receipt id="26BE59EEF0B26D4C07B8D71A8EA12B8C" to="6283890184815@c.us" type="peer_msg"/>[0m
+10:15:19.052 [Client/Send DEBUG] <receipt id="26BE59EEF0B26D4C07B8D71A8EA12B8C" recipient="6283890184815@s.whatsapp.net" to="6283890184815@s.whatsapp.net" type="sender"/>[0m
+10:15:19.052 [Client/Send DEBUG] <ack class="message" id="BF66FD8C1A192109C487274A58CC36A6" to="6283890184815@s.whatsapp.net"/>[0m
+10:15:19.101 [Client DEBUG] Received history sync (type INITIAL_STATUS_V3, chunk 0, progress 0)[0m
+💬 Pesan masuk: 
+10:15:19.132 [Client/Send DEBUG] <receipt id="BF66FD8C1A192109C487274A58CC36A6" to="6283890184815@c.us" type="hist_sync"/>[0m
+10:15:19.132 [Client/Send DEBUG] <receipt id="BF66FD8C1A192109C487274A58CC36A6" to="6283890184815@c.us" type="peer_msg"/>[0m
+10:15:19.133 [Client/Send DEBUG] <receipt id="BF66FD8C1A192109C487274A58CC36A6" recipient="6283890184815@s.whatsapp.net" to="6283890184815@s.whatsapp.net" type="sender"/>[0m
+10:15:19.144 [Client/Recv DEBUG] <notification from="s.whatsapp.net" id="2157747262" t="1753240548" type="server_sync"><collection name="regular_low" version="82"/></notification>[0m
+10:15:19.144 [Client/Send DEBUG] <ack class="notification" id="2157747262" to="s.whatsapp.net" type="server_sync"/>[0m
+10:15:19.144 [Client DEBUG] Got server sync notification that app state regular_low has updated to version 82[0m
+10:15:19.144 [Client/Send DEBUG] <iq id="233.173-13" to="s.whatsapp.net" type="set" xmlns="w:sync:app:state"><sync><collection name="regular_low" return_snapshot="false" version="81"/></sync></iq>[0m
+10:15:19.263 [Client DEBUG] Received history sync (type INITIAL_BOOTSTRAP, chunk 0, progress 0)[0m
+10:15:19.264 [Client DEBUG] Storing 484 message secret keys in history sync[0m
+10:15:19.289 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="26BE59EEF0B26D4C07B8D71A8EA12B8C" type="hist_sync"/>[0m
+10:15:19.294 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="26BE59EEF0B26D4C07B8D71A8EA12B8C" type="peer_msg"/>[0m
+10:15:19.369 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="BF66FD8C1A192109C487274A58CC36A6" type="hist_sync"/>[0m
+10:15:19.369 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="BF66FD8C1A192109C487274A58CC36A6" type="peer_msg"/>[0m
+10:15:19.397[36m [Client INFO] Stored 484 message secret keys from history sync[0m
+10:15:19.397 [Client DEBUG] Storing 16 privacy tokens in history sync[0m
+10:15:19.425 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="6D21ABEF2FD5440518B14D7D8E2A952C" t="1753240548" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 439 bytes --></enc></message>[0m
+10:15:19.425 [Client DEBUG] Decrypting message from 6283890184815@s.whatsapp.net[0m
+10:15:19.426 [Client/Send DEBUG] <ack class="message" id="6D21ABEF2FD5440518B14D7D8E2A952C" to="6283890184815@s.whatsapp.net"/>[0m
+10:15:19.454[36m [Client INFO] Stored 16 privacy tokens from history sync[0m
+10:15:19.621 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-13" type="result"><sync><collection name="regular_low"><patches><patch><!-- 564 bytes --></patch></patches></collection></sync></iq>[0m
+💬 Pesan masuk: 
+10:15:19.638 [Client/Send DEBUG] <receipt id="6D21ABEF2FD5440518B14D7D8E2A952C" to="6283890184815@c.us" type="hist_sync"/>[0m
+10:15:19.638 [Client/Send DEBUG] <receipt id="6D21ABEF2FD5440518B14D7D8E2A952C" to="6283890184815@c.us" type="peer_msg"/>[0m
+10:15:19.638 [Client/Send DEBUG] <receipt id="6D21ABEF2FD5440518B14D7D8E2A952C" recipient="6283890184815@s.whatsapp.net" to="6283890184815@s.whatsapp.net" type="sender"/>[0m
+10:15:19.672 [Client DEBUG] Received history sync (type PUSH_NAME, chunk 0, progress 0)[0m
+10:15:19.672[36m [Client INFO] Updating contact store with 1000 push names from history sync[0m
+10:15:19.881 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="6D21ABEF2FD5440518B14D7D8E2A952C" type="hist_sync"/>[0m
+10:15:19.881 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="6D21ABEF2FD5440518B14D7D8E2A952C" type="peer_msg"/>[0m
+10:15:19.968 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="01EC0C599F8C1C9E024D11578E27FE5C" t="1753240548" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 567 bytes --></enc></message>[0m
+10:15:19.968 [Client DEBUG] Decrypting message from 6283890184815@s.whatsapp.net[0m
+10:15:19.969 [Client/Send DEBUG] <ack class="message" id="01EC0C599F8C1C9E024D11578E27FE5C" to="6283890184815@s.whatsapp.net"/>[0m
+10:15:20.113 [Client DEBUG] Synced app state regular_low from version 81 to 82[0m
+10:15:20.150 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240549" type="text"><reporting><reporting_tag>0109d30ab5878a7472b2d2c3a6f78238eb5ba4ed</reporting_tag><reporting_token v="2">e05c372d026f05b2df32d624ff6bdcb5</reporting_token></reporting><enc type="skmsg" v="2"><!-- 795 bytes --></enc></message>[0m
+10:15:20.192 [Client DEBUG] Got push name I Gede Didi Dewanagari for 6283890184814@s.whatsapp.net in history sync[0m
+10:15:20.272 [Client DEBUG] Got push name Lia N for 628979298947@s.whatsapp.net in history sync[0m
+10:15:20.355 [Client DEBUG] Got push name ferymaryadi for 62895392110293@s.whatsapp.net in history sync[0m
+10:15:20.501 [Client DEBUG] Got push name . for 6288239331922@s.whatsapp.net in history sync[0m
+10:15:20.598 [Client DEBUG] Got push name uspn. for 6289657445047@s.whatsapp.net in history sync[0m
+10:15:20.695 [Client DEBUG] Got push name bᵢbₑₕ for 6281770277980@s.whatsapp.net in history sync[0m
+10:15:20.847 [Client DEBUG] Got push name MzOni_ for 62811265700@s.whatsapp.net in history sync[0m
+10:15:20.931 [Client DEBUG] Got push name Nufa for 6281225758994@s.whatsapp.net in history sync[0m
+10:15:21.012 [Client DEBUG] Got push name Koif Setiadi for 6285728702220@s.whatsapp.net in history sync[0m
+10:15:21.075 [Client DEBUG] Got push name Edwin _Gandamana👑 for 6281228911995@s.whatsapp.net in history sync[0m
+10:15:21.175 [Client DEBUG] Got push name SIHAN \w/ for 628996167209@s.whatsapp.net in history sync[0m
+10:15:21.248 [Client DEBUG] Got push name Abi Athar😘😘 for 6289508917922@s.whatsapp.net in history sync[0m
+10:15:21.322 [Client DEBUG] Got push name . for 6285725640140@s.whatsapp.net in history sync[0m
+10:15:21.387 [Client DEBUG] Got push name 파리크 앙기 아프릴리안사 for 6288227248140@s.whatsapp.net in history sync[0m
+10:15:21.455 [Client DEBUG] Got push name Jazell Sa'i Nf 😎 for 6288980894495@s.whatsapp.net in history sync[0m
+10:15:21.538 [Client DEBUG] Got push name Ken for 6282134137223@s.whatsapp.net in history sync[0m
+10:15:21.629 [Client DEBUG] Got push name P for 6288215225992@s.whatsapp.net in history sync[0m
+10:15:21.698 [Client DEBUG] Got push name Rafi for 62895385935516@s.whatsapp.net in history sync[0m
+10:15:21.771 [Client DEBUG] Got push name Bang Azept for 628561795990@s.whatsapp.net in history sync[0m
+10:15:21.835 [Client DEBUG] Got push name Mas A for 6282314553935@s.whatsapp.net in history sync[0m
+10:15:21.915 [Client DEBUG] Got push name . for 628156616307@s.whatsapp.net in history sync[0m
+10:15:21.987 [Client DEBUG] Got push name 🛴 for 6283116201382@s.whatsapp.net in history sync[0m
+10:15:22.068 [Client DEBUG] Got push name . for 6285870320194@s.whatsapp.net in history sync[0m
+10:15:22.149 [Client DEBUG] Got push name raihn for 6288239278047@s.whatsapp.net in history sync[0m
+10:15:22.189 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240551" type="text"><enc type="pkmsg" v="2"><!-- 887 bytes --></enc><reporting><reporting_tag>0109b1fbe8474af43f9b29fac2d30cb89781ad1f</reporting_tag><reporting_token v="2">e05c372d026f05b2df32d624ff6bdcb5</reporting_token></reporting></message>[0m
+10:15:22.233 [Client DEBUG] Got push name yadikiyoshi for 6281358875058@s.whatsapp.net in history sync[0m
+10:15:22.297 [Client DEBUG] Got push name Şค_ຖ໓ค for 6285712312618@s.whatsapp.net in history sync[0m
+10:15:22.354 [Client DEBUG] Got push name Mazden for 6287760254361@s.whatsapp.net in history sync[0m
+10:15:22.430 [Client DEBUG] Got push name denmashandika for 6285777776760@s.whatsapp.net in history sync[0m
+10:15:22.496 [Client DEBUG] Got push name Alfarizi for 6281327400215@s.whatsapp.net in history sync[0m
+10:15:22.563 [Client DEBUG] Got push name Lukman Maulana for 6287839410111@s.whatsapp.net in history sync[0m
+10:15:22.620 [Client DEBUG] Got push name burhanuf for 6281355668428@s.whatsapp.net in history sync[0m
+10:15:22.722 [Client DEBUG] Got push name SINYO for 628121629146@s.whatsapp.net in history sync[0m
+10:15:22.804 [Client DEBUG] Got push name Ibiza.sby for 6285934346969@s.whatsapp.net in history sync[0m
+10:15:22.871 [Client DEBUG] Got push name Amer Bro for 6282177776245@s.whatsapp.net in history sync[0m
+10:15:22.951 [Client DEBUG] Got push name Ade Firman Nur Raafi for 6285847964190@s.whatsapp.net in history sync[0m
+10:15:23.016 [Client DEBUG] Got push name . for 6281242296987@s.whatsapp.net in history sync[0m
+10:15:23.095 [Client DEBUG] Got push name Cifa for 6282143032941@s.whatsapp.net in history sync[0m
+10:15:23.169 [Client DEBUG] Got push name 13135550002 for 13135550002@s.whatsapp.net in history sync[0m
+10:15:23.247 [Client DEBUG] Got push name Ayah Jazell 😎 for 6282291409824@s.whatsapp.net in history sync[0m
+10:15:23.294 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="C14D6EC22AC1E05D63283DC2B747FA3A" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240552" type="text" verified_level="unknown" verified_name="3714673715547175414"><reporting><reporting_tag>01097f6c66917d7eb1ba2db0eb00b3e4ecc29d07</reporting_tag><reporting_token v="2">86f1f4f398cb5984f042c58eb0051455</reporting_token></reporting><enc type="skmsg" v="2"><!-- 2236 bytes --></enc></message>[0m
+10:15:23.321 [Client DEBUG] Got push name Sihan \w/ for 6285966277291@s.whatsapp.net in history sync[0m
+10:15:23.404 [Client DEBUG] Got push name Meta AI for 867051314767696@bot in history sync[0m
+10:15:23.471 [Client DEBUG] Got push name Suka Berbagi for 6285727290506@s.whatsapp.net in history sync[0m
+10:15:23.547 [Client DEBUG] Got push name Enźi Bìz for 6285800216072@s.whatsapp.net in history sync[0m
+10:15:23.629 [Client DEBUG] Got push name Muhammad Romi Satria for 6282144128828@s.whatsapp.net in history sync[0m
+10:15:24.453 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="C14D6EC22AC1E05D63283DC2B747FA3A" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240553" type="text" verified_level="unknown" verified_name="3714673715547175414"><enc type="pkmsg" v="2"><!-- 2311 bytes --></enc><reporting><reporting_tag>0109b5ada79cd8efd6a30950bf05dc25cf3fd243</reporting_tag><reporting_token v="2">86f1f4f398cb5984f042c58eb0051455</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1908f6f3adbd8282cbc6331206736d623a776122056e616a7761124054cb76c834ea06e7dac67965a5376049e26271026ecfd320f367d90ba324cba0f2a40b13a0484d8f2267a72092ef9948a6398a8376d3c68bccebc30e28faf707</verified_name></message>[0m
+10:15:24.899 [Client DEBUG] Got push name Haryo for 6282230016921@s.whatsapp.net in history sync[0m
+10:15:25.479 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AC4C35C1CA619D524F3" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240554" type="text"><enc type="pkmsg" v="2"><!-- 295 bytes --></enc><reporting><reporting_tag>01096b4b0fe89f916b160f5bb6a5067b706c04d8</reporting_tag><reporting_token v="2">84e8d3eb3c326de956fdcbde9b3e6455</reporting_token></reporting><enc type="skmsg" v="2"><!-- 284 bytes --></enc></message>[0m
+10:15:27.703 [Client DEBUG] Got push name Mas Salinov for 6285156491879@s.whatsapp.net in history sync[0m
+10:15:28.049[33m [Client WARN] Error decrypting message 01EC0C599F8C1C9E024D11578E27FE5C from 6283890184815@s.whatsapp.net: failed to decrypt prekey message: failed to save identity of 182691215491288_1:0: database is locked[0m
+10:15:28.049[33m [Client WARN] Node handling took 8.0802997s for <message category="peer" from="6283890184815@s.whatsapp.net" id="01EC0C599F8C1C9E024D11578E27FE5C" t="1753240548" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 567 bytes --></enc></message>[0m
+10:15:28.049 [Client DEBUG] Decrypting message from 6282135598732@s.whatsapp.net in 120363398594733354@g.us[0m
+10:15:28.062 [Client/Send DEBUG] <receipt id="01EC0C599F8C1C9E024D11578E27FE5C" to="6283890184815@s.whatsapp.net" type="retry"><retry count="1" id="01EC0C599F8C1C9E024D11578E27FE5C" t="1753240548" v="1"/><registration>63220d56</registration></receipt>[0m
+10:15:28.062 [Client/Send DEBUG] <ack class="message" id="3E1FEDFB5FD22770ED16E59BE8C38670" participant="6282135598732@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:15:28.298 [Client/Recv DEBUG] <ack class="receipt" from="6283890184815@s.whatsapp.net" id="01EC0C599F8C1C9E024D11578E27FE5C" type="retry"/>[0m
+10:15:29.102 [Client/Recv DEBUG] <notification from="6285721529735@s.whatsapp.net" id="4060731908" lid="248811851100414@lid" t="1753240555" type="devices"><remove device_hash="2:FwihoiSx" device_lid_hash="2:NpUhvOZV"><device jid="6285721529735:48@s.whatsapp.net" key-index="4" lid="248811851100414:48@lid"/><key-index-list ts="1753238483"/></remove></notification>[0m
+10:15:29.601 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="A05D0BCC9C8FCDF20113CE369AED3113" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240558" type="media" verified_level="unknown" verified_name="3714673715547175414"><enc type="pkmsg" v="2"><!-- 279 bytes --></enc><reporting><reporting_tag>0109bb31f192a5506795da583d5a62cfc65eef59</reporting_tag><reporting_token v="2">53e0d6c0c4d4d37c46578d308e3814e8</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1908f6f3adbd8282cbc6331206736d623a776122056e616a7761124054cb76c834ea06e7dac67965a5376049e26271026ecfd320f367d90ba324cba0f2a40b13a0484d8f2267a72092ef9948a6398a8376d3c68bccebc30e28faf707</verified_name><enc mediatype="sticker" type="skmsg" v="2"><!-- 652 bytes --></enc></message>[0m
+10:15:29.967 [Client DEBUG] Got push name PEDULI MASARAKAT for 6282125349013@s.whatsapp.net in history sync[0m
+10:15:31.338 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A7A2D8EA13E95892BD5" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240560" type="text"><reporting><reporting_tag>0109471e858e10c350585fbaac43fcba7dd387c9</reporting_tag><reporting_token v="2">595788de96c21b289da8caa2350e3bd7</reporting_token></reporting><enc type="skmsg" v="2"><!-- 155 bytes --></enc></message>[0m
+10:15:32.668 [Client DEBUG] Got push name Ekaa for 6283119146317@s.whatsapp.net in history sync[0m
+10:15:34.422 [Client DEBUG] Push name of 6282135598732@s.whatsapp.net changed from  to renn zian夜月💫, dispatching event[0m
+10:15:36.004 [Client DEBUG] Got push name BisaHebat for 6281295514637@s.whatsapp.net in history sync[0m
+10:15:36.822 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363323016426078@g.us" id="FC3CE03F0DEB96805E90573B6CFCB453" notify="Try Series Caladium" participant="6288221682848@s.whatsapp.net" participant_lid="154472978354244@lid" t="1753240565" type="media" verified_level="unknown" verified_name="4360428249053710015"><multicast/><reporting><reporting_tag>0109738e320e684b87196de9da62c1543f3fb787</reporting_tag><reporting_token v="2">0bf9e6422cb0ed6b1e3352977d17712c</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a2708bf8db3abbdccd6c13c1206736d623a77612213547279205365726965732043616c616469756d1240374a9753ab5bdb8e775f0b82c90f9c17079e7c35e5d98b92631a0be02cb8d5f70cb227fa0720ddc653f8b3847b03319886a2904cae83db159ca51262306e4c00</verified_name><enc mediatype="image" type="skmsg" v="2"><!-- 1435 bytes --></enc></message>[0m
+10:15:36.867[31m [Client ERROR] Failed to migrate signal store from 6282135598732@s.whatsapp.net to 119339961286773@lid: failed to migrate sessions: database is locked[0m
+10:15:38.067 [Client DEBUG] Got push name Dwi Margi 3 for 6283141911549@s.whatsapp.net in history sync[0m
+10:15:38.209 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363323016426078@g.us" id="FC3CE03F0DEB96805E90573B6CFCB453" notify="Try Series Caladium" participant="6288221682848@s.whatsapp.net" participant_lid="154472978354244@lid" t="1753240567" type="media" verified_level="unknown" verified_name="4360428249053710015"><enc mediatype="image" type="pkmsg" v="2"><!-- 1527 bytes --></enc><multicast/><reporting><reporting_tag>0109169301698278c34eae89356e5e4c110f94ac</reporting_tag><reporting_token v="2">0bf9e6422cb0ed6b1e3352977d17712c</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a2708bf8db3abbdccd6c13c1206736d623a77612213547279205365726965732043616c616469756d1240374a9753ab5bdb8e775f0b82c90f9c17079e7c35e5d98b92631a0be02cb8d5f70cb227fa0720ddc653f8b3847b03319886a2904cae83db159ca51262306e4c00</verified_name></message>[0m
+10:15:38.975 [Client/Recv DEBUG] <notification from="194648052097111@lid" id="3251155071" t="1753240554" type="devices"><add device_hash="2:mm0+khtQ"><device jid="194648052097111:88@lid" key-index="1"/><key-index-list ts="1753240549">0a1408ecc58bb00110e5a781c406180122020001280012400834a2b305ca0aa3fa2720fff4bceb4b72457337c8481cb2082374b6dc265f02ab90f4ba628ad57db63de9282d24f71d2c4f500bcb317433b78f773a3963b70e</key-index-list></add></notification>[0m
+10:15:39.247 [Client DEBUG] Got push name Sumiyati for 6283857575432@s.whatsapp.net in history sync[0m
+10:15:39.326 [Client/Send DEBUG] <iq id="233.173-14" to="s.whatsapp.net" type="get" xmlns="w:p"/>[0m
+10:15:39.561 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-14" t="1753240568" type="result"/>[0m
+10:15:40.234 [Client DEBUG] Got push name laksanaherbal385 for 6285318559712@s.whatsapp.net in history sync[0m
+10:15:40.558 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="D0DABBC0D24FE8818704370B701B82EE" notify="zeyyha" participant="62895402398973@s.whatsapp.net" participant_lid="140604830941383@lid" t="1753240569" type="text" verified_level="unknown" verified_name="8283035795941090783"><reporting><reporting_tag>0109bd4a28bb8e9dbf48660430a995d5031dfd8c</reporting_tag><reporting_token v="2">7840d6e2c3bd21208a6dea65978643ba</reporting_token></reporting><enc type="skmsg" v="2"><!-- 764 bytes --></enc></message>[0m
+10:15:40.992 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3AD9DE1438FD59CC8B51" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240569" type="text"><reporting><reporting_tag>010947d327db792f060e52aee6c0fd5969e966a1</reporting_tag><reporting_token v="2">f86e9417d4a7b1de0aeb59186018ae32</reporting_token></reporting><enc type="skmsg" v="2"><!-- 348 bytes --></enc></message>[0m
+10:15:41.465 [Client DEBUG] Got push name agungsumardi47 for 6281617341339@s.whatsapp.net in history sync[0m
+10:15:41.475[33m [Client WARN] Error decrypting message 3E1FEDFB5FD22770ED16E59BE8C38670 from 6282135598732@s.whatsapp.net in 120363398594733354@g.us: failed to decrypt group message: no sender key for 119339961286773_1:0 in 120363398594733354@g.us[0m
+10:15:41.475[33m [Client WARN] Node handling took 13.4258481s for <message addressing_mode="pn" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240549" type="text"><reporting><reporting_tag>0109d30ab5878a7472b2d2c3a6f78238eb5ba4ed</reporting_tag><reporting_token v="2">e05c372d026f05b2df32d624ff6bdcb5</reporting_token></reporting><enc type="skmsg" v="2"><!-- 795 bytes --></enc></message>[0m
+10:15:41.475 [Client DEBUG] Decrypting message from 6282135598732@s.whatsapp.net in 120363398594733354@g.us[0m
+10:15:41.481 [Client/Send DEBUG] <ack class="message" id="3E1FEDFB5FD22770ED16E59BE8C38670" participant="6282135598732@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:15:42.066 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3AD9DE1438FD59CC8B51" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240571" type="text"><enc type="pkmsg" v="2"><!-- 439 bytes --></enc><reporting><reporting_tag>0109c665f089955485e9fbaace1275a97526a644</reporting_tag><reporting_token v="2">f86e9417d4a7b1de0aeb59186018ae32</reporting_token></reporting></message>[0m
+10:15:43.062 [Client/Recv DEBUG] <notification from="6281399904096@s.whatsapp.net" id="1225977763" lid="145492268830888@lid" t="1753240568" type="devices"><remove device_hash="2:ROY0e1qN" device_lid_hash="2:90QrulRG"><device jid="6281399904096:64@s.whatsapp.net" key-index="1" lid="145492268830888:64@lid"/><key-index-list ts="1752762281"/></remove></notification>[0m
+10:15:43.572 [Client DEBUG] Got push name Jasa Promosi for 6285647652481@s.whatsapp.net in history sync[0m
+10:15:43.821 [Client DEBUG] Got push name FERLINAAYU✨ for 6285881016495@s.whatsapp.net in history sync[0m
+10:15:44.171 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="D0DABBC0D24FE8818704370B701B82EE" notify="zeyyha" participant="62895402398973@s.whatsapp.net" participant_lid="140604830941383@lid" t="1753240573" type="text" verified_level="unknown" verified_name="8283035795941090783"><enc type="pkmsg" v="2"><!-- 839 bytes --></enc><reporting><reporting_tag>010929f690469efd3df5bdbda7096c22619be37c</reporting_tag><reporting_token v="2">7840d6e2c3bd21208a6dea65978643ba</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1a08dfcba7b7bca5d0f9721206736d623a776122067a657979686112403ec8bb054f47dbffae328d0083e17e0659ae9cf137a782ee86bd493d4fcdb78aab92db65b461c2d747164c5bc8c48d0abc926ce1332a6aba27a7d34d1602a70d</verified_name></message>[0m
+10:15:44.276 [Client/Recv DEBUG] <notification from="6287835775271@s.whatsapp.net" id="7093673" lid="223703489085458@lid" t="1753240569" type="devices"><remove device_hash="2:/y2coN45" device_lid_hash="2:tshqV0cz"><device jid="6287835775271:53@s.whatsapp.net" key-index="2" lid="223703489085458:53@lid"/><key-index-list ts="1753240120"/></remove></notification>[0m
+10:15:44.752 [Client DEBUG] Got push name Wang Chunying / Majestic for 60135867109@s.whatsapp.net in history sync[0m
+10:15:44.989 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3A2A93DEC691E982F0A3" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240573" type="text"><enc type="pkmsg" v="2"><!-- 279 bytes --></enc><reporting><reporting_tag>01091cfa61e599552f020fc281ce38c414ba92a9</reporting_tag><reporting_token v="2">49ed97075659f6600808eea17c56ae6d</reporting_token></reporting><enc type="skmsg" v="2"><!-- 155 bytes --></enc></message>[0m
+10:15:45.183 [Client DEBUG] Got push name AZRIEL ALVIAN NERALINO for 6285706261038@s.whatsapp.net in history sync[0m
+10:15:45.581 [Client DEBUG] Got push name OMNIA PROPERTY for 6289668049502@s.whatsapp.net in history sync[0m
+10:15:45.654 [Client DEBUG] Got push name gongjuuyaa for 6281318796630@s.whatsapp.net in history sync[0m
+10:15:46.987 [Client DEBUG] Got push name S.A. Syafi'i for 62895327131110@s.whatsapp.net in history sync[0m
+10:15:47.351 [Client/Recv DEBUG] <notification from="145492268830888@lid" id="496007759" t="1753240570" type="business"><verified_name jid="145492268830888@lid" serial="4266750000210062433" v="1" verified_level="unknown">0a1408e1d8acdfcdd0a29b3b1206736d623a776122001240f8ec4134996460304fdfe6601de11c23f8ece950246bdf0d5d35b358c09a1c5ba6ac9581116059006a4dd2294cc40a8d889df0e0709688746ca45f3742d22e05</verified_name></notification>[0m
+10:15:47.865 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3A2D3F675100419B01B5" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240576" type="text"><reporting><reporting_tag>010987ede9cc3a7a6121680bbabf5ec0c69cacda</reporting_tag><reporting_token v="2">664b124a04dd696e57eac66c92cc8de2</reporting_token></reporting><enc type="skmsg" v="2"><!-- 155 bytes --></enc></message>[0m
+10:15:49.051[31m [Client ERROR] Failed to get prekey for retry receipt: database is locked[0m
+10:15:49.051 [Client/Send DEBUG] <receipt id="3E1FEDFB5FD22770ED16E59BE8C38670" participant="6282135598732@s.whatsapp.net" to="120363398594733354@g.us" type="retry"><retry count="1" id="3E1FEDFB5FD22770ED16E59BE8C38670" t="1753240549" v="1"/><registration>63220d56</registration></receipt>[0m
+10:15:49.287 [Client DEBUG] Got push name Medina for 6281916762526@s.whatsapp.net in history sync[0m
+10:15:49.288 [Client/Recv DEBUG] <ack class="receipt" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" participant="6282135598732@s.whatsapp.net" type="retry"/>[0m
+10:15:49.733 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240578" type="text"><reporting><reporting_tag>0109c4691f4fa83ffe947e3fa737df6748a4ab81</reporting_tag><reporting_token v="2">e05c372d026f05b2df32d624ff6bdcb5</reporting_token></reporting><enc count="1" type="pkmsg" v="2"><!-- 983 bytes --></enc></message>[0m
+10:15:51.067[33m [Client WARN] Error decrypting message 3E1FEDFB5FD22770ED16E59BE8C38670 from 6282135598732@s.whatsapp.net in 120363398594733354@g.us: failed to decrypt prekey message: failed to save identity of 119339961286773_1:0: database is locked[0m
+10:15:51.067[33m [Client WARN] Node handling took 9.5927148s for <message addressing_mode="pn" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240551" type="text"><enc type="pkmsg" v="2"><!-- 887 bytes --></enc><reporting><reporting_tag>0109b1fbe8474af43f9b29fac2d30cb89781ad1f</reporting_tag><reporting_token v="2">e05c372d026f05b2df32d624ff6bdcb5</reporting_token></reporting></message>[0m
+10:15:51.067 [Client DEBUG] Decrypting message from 6281938745578@s.whatsapp.net in 120363364842189308@g.us[0m
+10:15:51.067 [Client/Send DEBUG] <ack class="message" id="C14D6EC22AC1E05D63283DC2B747FA3A" participant="6281938745578@s.whatsapp.net" to="120363364842189308@g.us"/>[0m
+10:15:51.411 [Client DEBUG] Got push name Yeni for 6289527769029@s.whatsapp.net in history sync[0m
+10:15:51.508 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="19F2ADD9035504E9BE1ABBA913CC2F8A" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240580" type="text"><enc type="pkmsg" v="2"><!-- 279 bytes --></enc><reporting><reporting_tag>0109942689fdfef507d682c832a7ef5802f76378</reporting_tag><reporting_token v="2">a958e020a6ba2b430949ea207ee790e5</reporting_token></reporting><enc type="skmsg" v="2"><!-- 219 bytes --></enc></message>[0m
+10:15:51.827 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3A92E5493D220DF546A7" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240580" type="media"><reporting><reporting_tag>0109a93ffc6ddf3c77a182183519a25e2b7d20ae</reporting_tag><reporting_token v="2">79015413add92fc75e27ff8fd28ccc91</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 652 bytes --></enc></message>[0m
+10:15:52.205 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A75B44E56CB5B64FDA6" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240581" type="text"><reporting><reporting_tag>01097ecbc782be2b0a2c74426c349cfdcfcf1bf5</reporting_tag><reporting_token v="2">f49a85801b46880e15bfc001c915a605</reporting_token></reporting><enc type="skmsg" v="2"><!-- 268 bytes --></enc></message>[0m
+10:15:52.409 [Client DEBUG] Got push name SWEER for 62816768964@s.whatsapp.net in history sync[0m
+10:15:52.451 [Client/Recv DEBUG] <notification from="6285338256341@s.whatsapp.net" id="2809172987" lid="171983459332273@lid" t="1753240578" type="devices"><remove device_hash="2:E/IvMJHG" device_lid_hash="2:e8ekbY0P"><device jid="6285338256341:21@s.whatsapp.net" key-index="6" lid="171983459332273:21@lid"/><key-index-list ts="1752068093"/></remove></notification>[0m
+10:15:53.803 [Client DEBUG] Push name of 6281938745578@s.whatsapp.net changed from  to najwa, dispatching event[0m
+10:15:54.384 [Client DEBUG] Got push name bagyopitoyo280370 for 6285280530969@s.whatsapp.net in history sync[0m
+10:15:54.519 [Client DEBUG] Got push name Sof1 Realy for 6289684181853@s.whatsapp.net in history sync[0m
+10:15:56.791 [Client DEBUG] Got push name Mbak Izzah - Admin for 6285868456095@s.whatsapp.net in history sync[0m
+10:15:56.867 [Client DEBUG] Got push name Indah Winarni for 6281230574832@s.whatsapp.net in history sync[0m
+10:15:57.017 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A2AFE2A94BCAA9C6B15" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240585" type="text"><reporting><reporting_tag>0109c3f9dbac1bcdd1a1c809073d351db4bc7fb7</reporting_tag><reporting_token v="2">68e23f58ba3bb66d553f8679a7dd4683</reporting_token></reporting><enc type="skmsg" v="2"><!-- 252 bytes --></enc></message>[0m
+10:15:58.255 [Client DEBUG] Got push name . for 628978246962@s.whatsapp.net in history sync[0m
+10:15:58.327 [Client DEBUG] Got push name Iman WS for 6282180265139@s.whatsapp.net in history sync[0m
+10:15:58.650[31m [Client ERROR] Failed to migrate signal store from 6281938745578@s.whatsapp.net to 255735824949349@lid: failed to migrate sessions: database is locked[0m
+10:15:58.674 [Client DEBUG] Got push name Suwarno for 6281357048143@s.whatsapp.net in history sync[0m
+10:15:58.741 [Client DEBUG] Got push name Man for 6287814512339@s.whatsapp.net in history sync[0m
+10:15:58.748[33m [Client WARN] Error decrypting message C14D6EC22AC1E05D63283DC2B747FA3A from 6281938745578@s.whatsapp.net in 120363364842189308@g.us: failed to decrypt group message: no sender key for 255735824949349_1:0 in 120363364842189308@g.us[0m
+10:15:58.748[33m [Client WARN] Node handling took 7.680784s for <message addressing_mode="pn" from="120363364842189308@g.us" id="C14D6EC22AC1E05D63283DC2B747FA3A" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240552" type="text" verified_level="unknown" verified_name="3714673715547175414"><reporting><reporting_tag>01097f6c66917d7eb1ba2db0eb00b3e4ecc29d07</reporting_tag><reporting_token v="2">86f1f4f398cb5984f042c58eb0051455</reporting_token></reporting><enc type="skmsg" v="2"><!-- 2236 bytes --></enc></message>[0m
+10:15:58.749 [Client DEBUG] Decrypting message from 6281938745578@s.whatsapp.net in 120363364842189308@g.us[0m
+10:15:58.750 [Client/Send DEBUG] <ack class="message" id="C14D6EC22AC1E05D63283DC2B747FA3A" participant="6281938745578@s.whatsapp.net" to="120363364842189308@g.us"/>[0m
+10:15:58.884 [Client DEBUG] Got push name Calpan for 6288902115205@s.whatsapp.net in history sync[0m
+10:15:58.970 [Client DEBUG] Got push name Sandria Mala for 62815409692904@s.whatsapp.net in history sync[0m
+10:16:00.380 [Client DEBUG] Business name of 6281938745578@s.whatsapp.net changed from  to najwa, dispatching event[0m
+10:16:00.852 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363419554821381@g.us" id="3E3E6B0B8AA4FFC19F3784F10CF784E6" notify="Kiran (Revlan)" participant="6283185737131@s.whatsapp.net" participant_lid="197049492476073@lid" t="1753240589" type="text"><reporting><reporting_tag>01090a1995b56b2f983ff0c16582951efc9ac84f</reporting_tag><reporting_token v="2">bc3f0bb860efbe5d040a875a2a331bcc</reporting_token></reporting><enc type="skmsg" v="2"><!-- 139 bytes --></enc></message>[0m
+10:16:01.157 [Client DEBUG] Got push name Alwy Muhammad for 62895386098076@s.whatsapp.net in history sync[0m
+10:16:01.225 [Client DEBUG] Got push name Abu AmmAr for 6282301089999@s.whatsapp.net in history sync[0m
+10:16:01.292 [Client DEBUG] Got push name Haryogi Suyatno for 6285776554123@s.whatsapp.net in history sync[0m
+10:16:01.358 [Client DEBUG] Got push name . for 6283171831465@s.whatsapp.net in history sync[0m
+10:16:01.415 [Client DEBUG] Got push name julyanto rj for 62816951215@s.whatsapp.net in history sync[0m
+10:16:01.475 [Client DEBUG] Got push name Amir Van Basten for 6287775300399@s.whatsapp.net in history sync[0m
+10:16:01.519 [Client/Send DEBUG] <iq id="233.173-15" to="s.whatsapp.net" type="get" xmlns="w:p"/>[0m
+10:16:01.542 [Client DEBUG] Got push name Urang Ngariung for 6282318281245@s.whatsapp.net in history sync[0m
+10:16:01.615 [Client DEBUG] Got push name Annis Sutarmo for 6281327093493@s.whatsapp.net in history sync[0m
+10:16:01.682 [Client DEBUG] Got push name Ferry Tri Hardianto for 6282317711717@s.whatsapp.net in history sync[0m
+10:16:01.741 [Client DEBUG] Got push name Patub Mz for 6285351850660@s.whatsapp.net in history sync[0m
+10:16:01.755 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-15" t="1753240590" type="result"/>[0m
+10:16:01.800 [Client DEBUG] Got push name Mellia Raw Honey for 6285216342229@s.whatsapp.net in history sync[0m
+10:16:01.858 [Client DEBUG] Got push name Imam Adjie Halimy for 6285730801002@s.whatsapp.net in history sync[0m
+10:16:01.925 [Client DEBUG] Got push name ꦱꦸꦩꦶꦪꦠꦶ for 6281334866705@s.whatsapp.net in history sync[0m
+10:16:01.991 [Client DEBUG] Got push name Nq for 6282228706454@s.whatsapp.net in history sync[0m
+10:16:02.048 [Client DEBUG] Got push name ارفاعي أندريان مولانا for 6281914166803@s.whatsapp.net in history sync[0m
+10:16:02.055[31m [Client ERROR] Failed to get prekey for retry receipt: database is locked[0m
+10:16:02.055 [Client/Send DEBUG] <receipt id="3E1FEDFB5FD22770ED16E59BE8C38670" participant="6282135598732@s.whatsapp.net" to="120363398594733354@g.us" type="retry"><retry count="2" id="3E1FEDFB5FD22770ED16E59BE8C38670" t="1753240551" v="1"/><registration>63220d56</registration></receipt>[0m
+10:16:02.108 [Client DEBUG] Got push name echamii for 6281586887393@s.whatsapp.net in history sync[0m
+10:16:02.175 [Client DEBUG] Got push name ~siapa ya~ for 6288216735811@s.whatsapp.net in history sync[0m
+10:16:02.244 [Client DEBUG] Got push name sigma wak for 6282337929818@s.whatsapp.net in history sync[0m
+10:16:02.315 [Client DEBUG] Got push name Rocha for 6285748600907@s.whatsapp.net in history sync[0m
+10:16:02.316 [Client/Recv DEBUG] <ack class="receipt" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" participant="6282135598732@s.whatsapp.net" type="retry"/>[0m
+10:16:02.366 [Client DEBUG] Got push name Angga Dwi for 6285343573149@s.whatsapp.net in history sync[0m
+10:16:02.425 [Client DEBUG] Got push name nggunn. for 6282131372498@s.whatsapp.net in history sync[0m
+10:16:02.508 [Client DEBUG] Got push name nabilisma for 6287730614060@s.whatsapp.net in history sync[0m
+10:16:02.575 [Client DEBUG] Got push name nasywaoktananda for 6281717279028@s.whatsapp.net in history sync[0m
+10:16:02.642 [Client DEBUG] Got push name REG A_49_ALIFIYA N. for 6287860354500@s.whatsapp.net in history sync[0m
+10:16:02.699 [Client DEBUG] Got push name REG B_7_B. A. NABILA for 6281235229258@s.whatsapp.net in history sync[0m
+10:16:02.749 [Client DEBUG] Got push name REG B_84_Putri Maulidya C for 6285693945062@s.whatsapp.net in history sync[0m
+10:16:02.810 [Client DEBUG] Got push name REG B_5_Bening Kirania MP for 6285815237848@s.whatsapp.net in history sync[0m
+10:16:02.875 [Client DEBUG] Got push name REG A_10_Dewi Setyawati for 6285855651947@s.whatsapp.net in history sync[0m
+10:16:02.948 [Client DEBUG] Got push name Reg A_09_Defa Dwimartha A for 628978677722@s.whatsapp.net in history sync[0m
+10:16:02.999 [Client DEBUG] Got push name Endang Soelistyowati for 628123028694@s.whatsapp.net in history sync[0m
+10:16:03.058 [Client DEBUG] Got push name REG A_37_Raeyhannya Tegar for 6285732838939@s.whatsapp.net in history sync[0m
+10:16:03.125 [Client DEBUG] Got push name REG B_47_ZILVA ULIL R for 6281803550053@s.whatsapp.net in history sync[0m
+10:16:03.192 [Client DEBUG] Got push name REG A_23_Leila Moza for 6288217871531@s.whatsapp.net in history sync[0m
+10:16:03.241 [Client DEBUG] Got push name IKAAKI_06 for 6287759946957@s.whatsapp.net in history sync[0m
+10:16:03.298 [Client DEBUG] Got push name REG A_19_Kartika widya T for 6289654670084@s.whatsapp.net in history sync[0m
+10:16:03.328 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3E1FEDFB5FD22770ED16E59BE8C38670" notify="renn zian夜月💫" participant="6282135598732@s.whatsapp.net" participant_lid="119339961286773@lid" t="1753240592" type="text"><reporting><reporting_tag>010946a7e8d91d874a6a0c135a1ebd24f703a673</reporting_tag><reporting_token v="2">e05c372d026f05b2df32d624ff6bdcb5</reporting_token></reporting><registration>63220d56</registration><enc count="2" type="pkmsg" v="2"><!-- 999 bytes --></enc></message>[0m
+10:16:03.360 [Client DEBUG] Got push name REG A_14_ DWI RIZQI J. for 6283110723224@s.whatsapp.net in history sync[0m
+10:16:03.442 [Client DEBUG] Got push name REG A_24_Marchella Sasta for 6285710379660@s.whatsapp.net in history sync[0m
+10:16:03.508 [Client DEBUG] Got push name REG B_1_ANGGELIKA SUKMA for 6285175364912@s.whatsapp.net in history sync[0m
+10:16:03.574 [Client DEBUG] Got push name REG A_48_AFRIDA ELSA R for 6285945119972@s.whatsapp.net in history sync[0m
+10:16:03.632 [Client DEBUG] Got push name REG B_92_Silvi Amanda W for 62882009608930@s.whatsapp.net in history sync[0m
+10:16:03.699 [Client DEBUG] Got push name REG B_43_TIKAAULIA for 6281235230757@s.whatsapp.net in history sync[0m
+10:16:03.765 [Client DEBUG] Got push name REG A_13_Diandra Sabrina for 6281233950791@s.whatsapp.net in history sync[0m
+10:16:03.775 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363419554821381@g.us" id="3E3E6B0B8AA4FFC19F3784F10CF784E6" notify="Kiran (Revlan)" participant="6283185737131@s.whatsapp.net" participant_lid="197049492476073@lid" t="1753240592" type="text"><enc type="pkmsg" v="2"><!-- 230 bytes --></enc><reporting><reporting_tag>0109ddf894c6efad5fe7549fe60583f319ee866b</reporting_tag><reporting_token v="2">bc3f0bb860efbe5d040a875a2a331bcc</reporting_token></reporting></message>[0m
+10:16:03.832 [Client DEBUG] Got push name Faticha_D3 Kep Sutomo for 6285745300724@s.whatsapp.net in history sync[0m
+10:16:03.916 [Client DEBUG] Got push name Erni_Polkesbaya for 6281216111938@s.whatsapp.net in history sync[0m
+10:16:04.182 [Client DEBUG] Stored message secret key for C14D6EC22AC1E05D63283DC2B747FA3A[0m
+💬 Pesan masuk: 
+10:16:04.182[33m [Client WARN] Node handling took 5.4338179s for <message addressing_mode="pn" from="120363364842189308@g.us" id="C14D6EC22AC1E05D63283DC2B747FA3A" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240553" type="text" verified_level="unknown" verified_name="3714673715547175414"><enc type="pkmsg" v="2"><!-- 2311 bytes --></enc><reporting><reporting_tag>0109b5ada79cd8efd6a30950bf05dc25cf3fd243</reporting_tag><reporting_token v="2">86f1f4f398cb5984f042c58eb0051455</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1908f6f3adbd8282cbc6331206736d623a776122056e616a7761124054cb76c834ea06e7dac67965a5376049e26271026ecfd320f367d90ba324cba0f2a40b13a0484d8f2267a72092ef9948a6398a8376d3c68bccebc30e28faf707</verified_name></message>[0m
+10:16:04.183 [Client DEBUG] Decrypting message from 6285739747665@s.whatsapp.net in 120363398594733354@g.us[0m
+10:16:04.184 [Client/Send DEBUG] <receipt id="C14D6EC22AC1E05D63283DC2B747FA3A" participant="6281938745578@s.whatsapp.net" to="120363364842189308@g.us" type="inactive"/>[0m
+10:16:04.184 [Client/Send DEBUG] <ack class="message" id="3AC4C35C1CA619D524F3" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:16:04.365 [Client DEBUG] Got push name REG A_33_R.A. NADHIFA E.A for 6285852360331@s.whatsapp.net in history sync[0m
+10:16:04.436 [Client DEBUG] Got push name REG B_50_Chelsea for 6283861020532@s.whatsapp.net in history sync[0m
+10:16:04.525 [Client DEBUG] Got push name REG A_50_Alvina Indira C for 6283832968555@s.whatsapp.net in history sync[0m
+10:16:04.591 [Client DEBUG] Got push name 2025_STR KI_BRIAN DIKA A. for 6283164047255@s.whatsapp.net in history sync[0m
+10:16:04.665 [Client DEBUG] Got push name Reg_Fahira Ramadhani_STr for 6282289648034@s.whatsapp.net in history sync[0m
+10:16:04.733 [Client DEBUG] Got push name Liviaa923 for 67074568274@s.whatsapp.net in history sync[0m
+10:16:04.753 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="1E08D66A3FCB1FBEAB2142B7DF1C846C" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240593" type="text" verified_level="unknown" verified_name="3714673715547175414"><reporting><reporting_tag>01096a5a84fac7378021e045d9eff8672b55dcc2</reporting_tag><reporting_token v="2">eda0d4f9463fe85000b32e61d78d5972</reporting_token></reporting><enc type="skmsg" v="2"><!-- 300 bytes --></enc></message>[0m
+10:16:04.792 [Client DEBUG] Got push name REG_ALYSSA AQILA_STR KEP for 6281333381590@s.whatsapp.net in history sync[0m
+10:16:04.876 [Client DEBUG] Got push name 2025_STR KI_INASTASYA W.R for 6282335832470@s.whatsapp.net in history sync[0m
+10:16:05.230 [Client DEBUG] Got push name REG_HILYATUL UZMA_STR KEP for 6281217785752@s.whatsapp.net in history sync[0m
+10:16:05.307 [Client DEBUG] Got push name 2025_STR KI_JELITA PUTRIW for 6285895218177@s.whatsapp.net in history sync[0m
+10:16:05.381 [Client DEBUG] Got push name 2025_STR KI_Rezacky akbar for 6281249775980@s.whatsapp.net in history sync[0m
+10:16:05.442 [Client DEBUG] Got push name REG_GRISELDA N.N_STR KEP for 6285826116343@s.whatsapp.net in history sync[0m
+10:16:05.515 [Client DEBUG] Got push name ~ REG_Ridha Ayu_STr Kep for 6285748862223@s.whatsapp.net in history sync[0m
+10:16:05.581 [Client DEBUG] Got push name REG_DESTYANA DWI_S.Tr.Kep for 6281934131367@s.whatsapp.net in history sync[0m
+10:16:05.648 [Client DEBUG] Got push name REG_ImeldaE.A._STr.Kep for 6285895302790@s.whatsapp.net in history sync[0m
+10:16:05.714 [Client DEBUG] Got push name REG_BERLINDA PUTRI_STRKEP for 6282132652876@s.whatsapp.net in history sync[0m
+10:16:05.799 [Client DEBUG] Got push name REG_NOVRITA PUTRI_STR KEP for 6285648951796@s.whatsapp.net in history sync[0m
+10:16:05.866 [Client DEBUG] Got push name 2025_STR KI_ALYA P. A. P. for 6281915621340@s.whatsapp.net in history sync[0m
+10:16:05.932 [Client DEBUG] Got push name REG_FAHM ARA_S.Tr. KEP for 6289662033666@s.whatsapp.net in history sync[0m
+10:16:05.998 [Client DEBUG] Got push name 2025_STR KI_NADHEFI L. for 6282139502788@s.whatsapp.net in history sync[0m
+10:16:06.074 [Client DEBUG] Got push name REG_LILLAH .S.R.I_STR KEP for 6281385735224@s.whatsapp.net in history sync[0m
+10:16:06.141 [Client DEBUG] Got push name REG_JIHAN ULYA_STR KEP for 6289678758803@s.whatsapp.net in history sync[0m
+10:16:06.222 [Client DEBUG] Got push name REG_Gavrila Nayla_STR Kep for 6282245266753@s.whatsapp.net in history sync[0m
+10:16:06.298 [Client DEBUG] Got push name ziadavicenna for 6281252039415@s.whatsapp.net in history sync[0m
+10:16:06.365 [Client DEBUG] Got push name lathifah ansaria for 6285745199624@s.whatsapp.net in history sync[0m
+10:16:06.432 [Client DEBUG] Got push name nikk for 6285706014151@s.whatsapp.net in history sync[0m
+10:16:06.499 [Client DEBUG] Got push name zaskia calya for 6282250078208@s.whatsapp.net in history sync[0m
+10:16:06.565 [Client DEBUG] Got push name Ryu Wahyu_S.Tr TLM for 6289691860844@s.whatsapp.net in history sync[0m
+10:16:06.632 [Client DEBUG] Got push name vindyaa for 6285746117461@s.whatsapp.net in history sync[0m
+10:16:06.707 [Client DEBUG] Got push name Farah Atika_S.Tr_TLM for 6285607682402@s.whatsapp.net in history sync[0m
+10:16:06.775 [Client DEBUG] Got push name azzahra talenta for 6287889504610@s.whatsapp.net in history sync[0m
+10:16:06.831 [Client DEBUG] Got push name Nurul Kamila for 6287851124145@s.whatsapp.net in history sync[0m
+10:16:06.897 [Client DEBUG] Got push name ree for 6282257481997@s.whatsapp.net in history sync[0m
+10:16:06.955 [Client DEBUG] Got push name rama for 6281232663207@s.whatsapp.net in history sync[0m
+10:16:07.015 [Client DEBUG] Got push name Sill for 6282245249075@s.whatsapp.net in history sync[0m
+10:16:07.082 [Client DEBUG] Got push name Dalle Loppo for 6285399260134@s.whatsapp.net in history sync[0m
+10:16:07.214 [Client DEBUG] Got push name nana for 6282297336065@s.whatsapp.net in history sync[0m
+10:16:07.272 [Client DEBUG] Got push name NADIA for 6285167850889@s.whatsapp.net in history sync[0m
+10:16:07.341 [Client DEBUG] Got push name Gito for 6281374005100@s.whatsapp.net in history sync[0m
+10:16:07.442 [Client DEBUG] Got push name ~🗣️ for 6285696541197@s.whatsapp.net in history sync[0m
+10:16:07.514 [Client DEBUG] Got push name Amel 🫦❤️ for 6283194658396@s.whatsapp.net in history sync[0m
+10:16:07.581 [Client DEBUG] Got push name ✧sweet_grils✧ for 6287822184506@s.whatsapp.net in history sync[0m
+10:16:07.639 [Client DEBUG] Got push name k for 6289503927080@s.whatsapp.net in history sync[0m
+10:16:07.714 [Client DEBUG] Got push name bila for 62895370009879@s.whatsapp.net in history sync[0m
+10:16:07.781 [Client DEBUG] Got push name Ara ara for 6281400625829@s.whatsapp.net in history sync[0m
+10:16:07.847 [Client DEBUG] Got push name ✨Adversary✨ for 6285700842925@s.whatsapp.net in history sync[0m
+10:16:07.915 [Client DEBUG] Got push name ~ for 6285724193759@s.whatsapp.net in history sync[0m
+10:16:07.999 [Client DEBUG] Got push name . for 6285814918927@s.whatsapp.net in history sync[0m
+10:16:08.064 [Client DEBUG] Got push name Cika Oktaviani for 6288907024773@s.whatsapp.net in history sync[0m
+10:16:08.139 [Client DEBUG] Got push name RelzZzz    knp?gpp² for 62895406433508@s.whatsapp.net in history sync[0m
+10:16:08.205 [Client DEBUG] Got push name ,. for 6282245004708@s.whatsapp.net in history sync[0m
+10:16:08.281 [Client DEBUG] Got push name ᧉ𝔩𝔩 for 6281256164467@s.whatsapp.net in history sync[0m
+10:16:08.924 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="061B4A76B62002DE918103F514AE2DE2" notify="W" participant="6283809268748@s.whatsapp.net" participant_lid="164729226010722@lid" t="1753240597" type="text"><enc type="pkmsg" v="2"><!-- 279 bytes --></enc><reporting><reporting_tag>01090d4a42115e10a146d4f4c4c127513cd58516</reporting_tag><reporting_token v="2">187105f7b2554f84baa821d9529e9530</reporting_token></reporting><enc type="skmsg" v="2"><!-- 154 bytes --></enc></message>[0m
+10:16:09.648[31m [Client ERROR] Failed to get prekey for retry receipt: database is locked[0m
+10:16:09.648 [Client/Send DEBUG] <receipt id="C14D6EC22AC1E05D63283DC2B747FA3A" participant="6281938745578@s.whatsapp.net" to="120363364842189308@g.us" type="retry"><retry count="1" id="C14D6EC22AC1E05D63283DC2B747FA3A" t="1753240552" v="1"/><registration>63220d56</registration></receipt>[0m
+10:16:09.885 [Client/Recv DEBUG] <ack class="receipt" from="120363364842189308@g.us" id="C14D6EC22AC1E05D63283DC2B747FA3A" participant="6281938745578@s.whatsapp.net" type="retry"/>[0m
+10:16:10.504 [Client DEBUG] Got push name ayy? for 6281818451551@s.whatsapp.net in history sync[0m
+10:16:10.795 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="8B4755EDD8CBD659D6BE3DB5E74887CC" t="1753240599" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 583 bytes --></enc></message>[0m
+10:16:11.633[33m [Client WARN] Error decrypting message 3AC4C35C1CA619D524F3 from 6285739747665@s.whatsapp.net in 120363398594733354@g.us: failed to decrypt prekey message: failed to save identity of 23266458644498_1:0: database is locked[0m
+10:16:11.633[33m [Client WARN] Node handling took 7.4507828s for <message addressing_mode="pn" from="120363398594733354@g.us" id="3AC4C35C1CA619D524F3" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240554" type="text"><enc type="pkmsg" v="2"><!-- 295 bytes --></enc><reporting><reporting_tag>01096b4b0fe89f916b160f5bb6a5067b706c04d8</reporting_tag><reporting_token v="2">84e8d3eb3c326de956fdcbde9b3e6455</reporting_token></reporting><enc type="skmsg" v="2"><!-- 284 bytes --></enc></message>[0m
+10:16:11.633 [Client/Send DEBUG] <receipt id="3AC4C35C1CA619D524F3" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us" type="retry"><retry count="1" id="3AC4C35C1CA619D524F3" t="1753240554" v="1"/><registration>63220d56</registration></receipt>[0m
+10:16:11.633 [Client/Send DEBUG] <ack class="notification" id="4060731908" to="6285721529735@s.whatsapp.net" type="devices"/>[0m
+10:16:11.869 [Client/Recv DEBUG] <ack class="receipt" from="120363398594733354@g.us" id="3AC4C35C1CA619D524F3" participant="6285739747665@s.whatsapp.net" type="retry"/>[0m
+10:16:12.303 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AC4C35C1CA619D524F3" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240601" type="text"><reporting><reporting_tag>01092451a0f5225251e68ea14ba0f300e1ba9252</reporting_tag><reporting_token v="2">84e8d3eb3c326de956fdcbde9b3e6455</reporting_token></reporting><enc count="1" type="pkmsg" v="2"><!-- 487 bytes --></enc></message>[0m
+10:16:13.006 [Client DEBUG] Got push name 🚩 for 6281258581104@s.whatsapp.net in history sync[0m
+10:16:14.377 [Client DEBUG] Got push name LANZzx for 6287844227536@s.whatsapp.net in history sync[0m
+10:16:14.780 [Client/Recv DEBUG] <notification addressing_mode="pn" from="120363398594733354@g.us" id="1727843689" notify="amengg" participant="6285739747665@s.whatsapp.net" t="1753240603" type="w:gp2"><announcement v_id="1753240603690798"/></notification>[0m
+10:16:15.933 [Client DEBUG] Got push name wan for 6283170116447@s.whatsapp.net in history sync[0m
+10:16:17.827 [Client DEBUG] Got push name st☆rr! for 6287850457106@s.whatsapp.net in history sync[0m
+10:16:19.129[31m [Client ERROR] Failed to store LID-PN mapping for 248811851100414@lid -> 6285721529735@s.whatsapp.net: database is locked[0m
+10:16:19.129 [Client DEBUG] No device list cached for 6285721529735@s.whatsapp.net, ignoring device list notification[0m
+10:16:19.129[33m [Client WARN] Node handling took 7.4963313s for <notification from="6285721529735@s.whatsapp.net" id="4060731908" lid="248811851100414@lid" t="1753240555" type="devices"><remove device_hash="2:FwihoiSx" device_lid_hash="2:NpUhvOZV"><device jid="6285721529735:48@s.whatsapp.net" key-index="4" lid="248811851100414:48@lid"/><key-index-list ts="1753238483"/></remove></notification>[0m
+10:16:19.130 [Client DEBUG] Decrypting message from 6281938745578@s.whatsapp.net in 120363364842189308@g.us[0m
+10:16:19.130 [Client/Send DEBUG] <ack class="message" id="A05D0BCC9C8FCDF20113CE369AED3113" participant="6281938745578@s.whatsapp.net" to="120363364842189308@g.us"/>[0m
+10:16:19.585 [Client DEBUG] Got push name 𐙚 for 6282278378709@s.whatsapp.net in history sync[0m
+10:16:21.847 [Client DEBUG] Got push name cill 🤍🫰🏻 for 6285860556911@s.whatsapp.net in history sync[0m
+10:16:22.005 [Client/Recv DEBUG] <message addressing_mode="pn" expiration="86400" from="6281234897100-1528204964@g.us" id="67229CD89DFD660B014C33C920E0391F" notify="BisaHebat" participant="6281295514637@s.whatsapp.net" participant_lid="60306072031456@lid" t="1753240610" type="media"><multicast/><reporting><reporting_tag>01095ad5b2c18cb2ec085b0d550f3a8e49d16f83</reporting_tag><reporting_token v="2">55fe5d292f3393d3dcd58f298195e7e9</reporting_token></reporting><enc mediatype="image" type="skmsg" v="2"><!-- 2108 bytes --></enc></message>[0m
+10:16:22.608 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A681513B79EE0C14D3C" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240611" type="text"><enc type="pkmsg" v="2"><!-- 295 bytes --></enc><reporting><reporting_tag>01098478cb54e69bf1c1cdfaa5bca33759a02e4b</reporting_tag><reporting_token v="2">f82222fc781011692ab90aca88a89341</reporting_token></reporting><enc type="skmsg" v="2"><!-- 171 bytes --></enc></message>[0m
+10:16:23.799 [Client DEBUG] Got push name admin bumi for 6283131698579@s.whatsapp.net in history sync[0m
+10:16:24.005 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A8A0823F46D08F3A823" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240612" type="text"><reporting><reporting_tag>01092cc7809852a43ad76406982be68bdfa0030f</reporting_tag><reporting_token v="2">2f476a2b70984fb851f9cf850de65f26</reporting_token></reporting><enc type="skmsg" v="2"><!-- 155 bytes --></enc></message>[0m
+10:16:24.884 [Client/Recv DEBUG] <message addressing_mode="pn" expiration="86400" from="6281234897100-1528204964@g.us" id="910D52A517F81505137CDD1756E48B73" notify="anni jaya" participant="6285171202569@s.whatsapp.net" participant_lid="231679545315344@lid" t="1753240613" type="media" verified_level="unknown" verified_name="7328882615064080674"><reporting><reporting_tag>0109ab66d11822021ddc07c842cbbcebe2849852</reporting_tag><reporting_token v="2">cba7b33204c065b8cfed3083f9e33523</reporting_token></reporting><enc mediatype="url" type="skmsg" v="2"><!-- 3085 bytes --></enc></message>[0m
+10:16:25.463 [Client DEBUG] Got push name Vio for 6289603971522@s.whatsapp.net in history sync[0m
+10:16:25.894 [Client/Recv DEBUG] <message addressing_mode="pn" expiration="86400" from="6281234897100-1528204964@g.us" id="910D52A517F81505137CDD1756E48B73" notify="anni jaya" participant="6285171202569@s.whatsapp.net" participant_lid="231679545315344@lid" t="1753240614" type="media" verified_level="unknown" verified_name="7328882615064080674"><enc mediatype="url" type="pkmsg" v="2"><!-- 3159 bytes --></enc><reporting><reporting_tag>0109b586346d784b81793cd5fd037ed399ad8f70</reporting_tag><reporting_token v="2">cba7b33204c065b8cfed3083f9e33523</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1d08a2e2b8bb88fddada651206736d623a77612209616e6e69206a6179611240da4c92d0bb5924528e3bab2687601bd589c2e6e6fdc9354434ab25e86278e3ef620bcdc894d1caa838ef23d822a2ff69e7e28c78dbad0ae8dcc5f86eaa75ba05</verified_name></message>[0m
+10:16:26.041 [Client/Recv DEBUG] <notification from="6285179673995@s.whatsapp.net" id="318825079" lid="157600133992688@lid" t="1753240610" type="devices"><remove device_hash="2:VZhz/yzB" device_lid_hash="2:LIUDx/3U"><device jid="6285179673995:71@s.whatsapp.net" key-index="46" lid="157600133992688:71@lid"/><key-index-list ts="1753239189"/></remove></notification>[0m
+10:16:26.076 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="D4E8E7964DD8A14536BEA522B716C3FD" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240614" type="media" verified_level="unknown" verified_name="3714673715547175414"><reporting><reporting_tag>01098af7c57d01065e872da010b86b1562497b55</reporting_tag><reporting_token v="2">6e655ca97f345e0404f059e0f3187e4e</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 748 bytes --></enc></message>[0m
+10:16:27.959 [Client DEBUG] Got push name ROWRRRRRRRRRRR for 628158802406@s.whatsapp.net in history sync[0m
+10:16:28.065 [Client/Recv DEBUG] <notification from="6281216974402@s.whatsapp.net" id="2520296538" lid="196009640591532@lid" t="1753240568" type="devices"><add device_hash="2:lLmSx/th" device_lid_hash="2:2maRZUpB"><device jid="6281216974402:16@s.whatsapp.net" key-index="4" lid="196009640591532:16@lid"/><key-index-list ts="1753240562">0a1608e1909b0910f2a781c40618042205000102030428001240fef1fa718e07f4482e580d07a9e0af40dc9b277099e9aec43dc988722b093851338b7bdc9f6450bcec2d697f58495ab1be5d585b81ef6a8df4cd8d107dddc407</key-index-list></add></notification>[0m
+10:16:28.565 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3AD12E7A7C2ED9A13744" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240617" type="media"><reporting><reporting_tag>0109ef47eccf1372c911a710772a90ba712c0f52</reporting_tag><reporting_token v="2">f3739ec946574c4b633d4471c722e18b</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 780 bytes --></enc></message>[0m
+10:16:29.155 [Client DEBUG] Got push name イラワン for 6282177655532@s.whatsapp.net in history sync[0m
+10:16:29.477[33m [Client WARN] Error decrypting message A05D0BCC9C8FCDF20113CE369AED3113 from 6281938745578@s.whatsapp.net in 120363364842189308@g.us: failed to decrypt prekey message: failed to save identity of 255735824949349_1:0: database is locked[0m
+10:16:29.477[33m [Client WARN] Node handling took 10.3467937s for <message addressing_mode="pn" from="120363364842189308@g.us" id="A05D0BCC9C8FCDF20113CE369AED3113" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240558" type="media" verified_level="unknown" verified_name="3714673715547175414"><enc type="pkmsg" v="2"><!-- 279 bytes --></enc><reporting><reporting_tag>0109bb31f192a5506795da583d5a62cfc65eef59</reporting_tag><reporting_token v="2">53e0d6c0c4d4d37c46578d308e3814e8</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1908f6f3adbd8282cbc6331206736d623a776122056e616a7761124054cb76c834ea06e7dac67965a5376049e26271026ecfd320f367d90ba324cba0f2a40b13a0484d8f2267a72092ef9948a6398a8376d3c68bccebc30e28faf707</verified_name><enc mediatype="sticker" type="skmsg" v="2"><!-- 652 bytes --></enc></message>[0m
+10:16:29.477 [Client/Send DEBUG] <receipt id="A05D0BCC9C8FCDF20113CE369AED3113" participant="6281938745578@s.whatsapp.net" to="120363364842189308@g.us" type="retry"><retry count="1" id="A05D0BCC9C8FCDF20113CE369AED3113" t="1753240558" v="1"/><registration>63220d56</registration></receipt>[0m
+10:16:29.477 [Client DEBUG] Decrypting message from 6285739747665@s.whatsapp.net in 120363398594733354@g.us[0m
+10:16:29.477 [Client/Send DEBUG] <ack class="message" id="3A7A2D8EA13E95892BD5" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us"/>[0m
+10:16:29.714 [Client/Recv DEBUG] <ack class="receipt" from="120363364842189308@g.us" id="A05D0BCC9C8FCDF20113CE369AED3113" participant="6281938745578@s.whatsapp.net" type="retry"/>[0m
+10:16:30.201 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="A05D0BCC9C8FCDF20113CE369AED3113" notify="najwa" participant="6281938745578@s.whatsapp.net" participant_lid="255735824949349@lid" t="1753240619" type="media" verified_level="unknown" verified_name="3714673715547175414"><reporting><reporting_tag>0109ac9b57dc1e3aab75f62ceeb45f26269e48f0</reporting_tag><reporting_token v="2">53e0d6c0c4d4d37c46578d308e3814e8</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a1908f6f3adbd8282cbc6331206736d623a776122056e616a7761124054cb76c834ea06e7dac67965a5376049e26271026ecfd320f367d90ba324cba0f2a40b13a0484d8f2267a72092ef9948a6398a8376d3c68bccebc30e28faf707</verified_name><enc count="1" mediatype="sticker" type="pkmsg" v="2"><!-- 855 bytes --></enc></message>[0m
+10:16:30.893 [Client DEBUG] Got push name KENALAN BG🥶🥶🥶 for 6287773753509@s.whatsapp.net in history sync[0m
+10:16:30.897[33m [Client WARN] Error decrypting message 3A7A2D8EA13E95892BD5 from 6285739747665@s.whatsapp.net in 120363398594733354@g.us: failed to decrypt group message: no sender key for 23266458644498_1:0 in 120363398594733354@g.us[0m
+10:16:31.110 [Client/Send DEBUG] <iq id="233.173-16" to="s.whatsapp.net" type="get" xmlns="w:p"/>[0m
+10:16:31.349 [Client/Recv DEBUG] <iq from="s.whatsapp.net" id="233.173-16" t="1753240620" type="result"/>[0m
+10:16:31.950 [Client DEBUG] Got push name Kiana Kayaknya for 6281252322617@s.whatsapp.net in history sync[0m
+10:16:32.097 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A0771111083E7A22D9D" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240620" type="text"><reporting><reporting_tag>0109bad94a0c62e8a96bfea7e90819d79a07265a</reporting_tag><reporting_token v="2">6843d68b6e2136d17c52a9c28604c5e6</reporting_token></reporting><enc type="skmsg" v="2"><!-- 171 bytes --></enc></message>[0m
+10:16:33.998 [Client DEBUG] Got push name kil🅰️ for 6282177922774@s.whatsapp.net in history sync[0m
+10:16:34.279 [Client DEBUG] Got push name ★wahyu for 6287786370738@s.whatsapp.net in history sync[0m
+10:16:35.801 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A083843778705B301CA" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240624" type="text"><reporting><reporting_tag>01095b7f2f343424295619d4cac94639ebebd37e</reporting_tag><reporting_token v="2">0890471ae3787786af2ca9b0c800fc60</reporting_token></reporting><enc type="skmsg" v="2"><!-- 155 bytes --></enc></message>[0m
+10:16:35.950 [Client DEBUG] Got push name Rx for 6282352449930@s.whatsapp.net in history sync[0m
+10:16:37.025 [Client DEBUG] Got push name Darmawan for 6281382461552@s.whatsapp.net in history sync[0m
+10:16:37.845 [Client DEBUG] Got push name ~•~•marrr for 6282171292832@s.whatsapp.net in history sync[0m
+10:16:38.355[31m [Client ERROR] Failed to get prekey for retry receipt: database is locked[0m
+10:16:38.355 [Client/Send DEBUG] <receipt id="3A7A2D8EA13E95892BD5" participant="6285739747665@s.whatsapp.net" to="120363398594733354@g.us" type="retry"><retry count="1" id="3A7A2D8EA13E95892BD5" t="1753240560" v="1"/><registration>63220d56</registration></receipt>[0m
+10:16:38.355[31m [Client ERROR] Failed to store LID-PN mapping for 154472978354244@lid -> 6288221682848@s.whatsapp.net: database is locked[0m
+10:16:38.355 [Client DEBUG] Decrypting message from 6288221682848@s.whatsapp.net in 120363323016426078@g.us[0m
+10:16:38.355 [Client/Send DEBUG] <ack class="message" id="FC3CE03F0DEB96805E90573B6CFCB453" participant="6288221682848@s.whatsapp.net" to="120363323016426078@g.us"/>[0m
+10:16:38.591 [Client/Recv DEBUG] <ack class="receipt" from="120363398594733354@g.us" id="3A7A2D8EA13E95892BD5" participant="6285739747665@s.whatsapp.net" type="retry"/>[0m
+10:16:38.706 [Client/Recv DEBUG] <notification from="267671186714792@lid" id="735602734" t="1753240624" type="devices"><remove device_hash="2:XXAZaJkD"><device jid="267671186714792:27@lid" key-index="10"/><key-index-list ts="1753240401"/></remove></notification>[0m
+10:16:38.928 [Client DEBUG] Got push name Jessy for 62857135161762@s.whatsapp.net in history sync[0m
+10:16:39.132 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A7A2D8EA13E95892BD5" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240628" type="text"><reporting><reporting_tag>0109e197975d6dc19241f76ecbc96c1cee616eb6</reporting_tag><reporting_token v="2">595788de96c21b289da8caa2350e3bd7</reporting_token></reporting><enc count="1" type="pkmsg" v="2"><!-- 343 bytes --></enc></message>[0m
+10:16:39.895 [Client/Recv DEBUG] <notification from="6282241134997@s.whatsapp.net" id="1188706704" lid="74917584318523@lid" t="1753240495" type="devices"><add device_hash="2:+dZsBzpX" device_lid_hash="2:Zv/v1PtA"><device jid="6282241134997:2@s.whatsapp.net" key-index="1" lid="74917584318523:2@lid"/><key-index-list ts="1753240488">0a1408d2e4c4b60110a8a781c4061801220200012800124077ec9224cc4caa24048159640cdd81d4ae019078bf79c2f97e91987e751f876940115f6d974ca597dd2379b57b470cbdd71694d47e4eaff7d00f40275438e30a</key-index-list></add></notification>[0m
+10:16:40.020 [Client DEBUG] Got push name KYAI SAMSUDIN for 6287814962496@s.whatsapp.net in history sync[0m
+10:16:40.162 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AFF86B44C50A8946250" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240629" type="media"><enc type="pkmsg" v="2"><!-- 295 bytes --></enc><reporting><reporting_tag>0109c1e950b55d2f0976d2c5c7235ffd69d83aa6</reporting_tag><reporting_token v="2">24025fff37693cf76fac5a33d0ec98ae</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 668 bytes --></enc></message>[0m
+10:16:40.247 [Client/Recv DEBUG] <message category="peer" from="6283890184815@s.whatsapp.net" id="321931B84E3380C976836ADB081D21FC" t="1753240629" type="text"><meta appdata="default"/><enc type="pkmsg" v="2"><!-- 583 bytes --></enc></message>[0m
+10:16:40.459 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363364842189308@g.us" id="3A66E0B0ADE126E43A0B" notify="Anik" participant="6283142134680@s.whatsapp.net" participant_lid="97741107642538@lid" t="1753240629" type="media"><reporting><reporting_tag>0109b463a881a002ad811c1b26e1c2a999c774ac</reporting_tag><reporting_token v="2">a8c13948df73979e9b3ef9f06a1ad380</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 1260 bytes --></enc></message>[0m
+10:16:40.509 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AC429449E194E59E81E" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240629" type="media"><reporting><reporting_tag>0109b81d640974ac585bd4abe5d23ff520de731e</reporting_tag><reporting_token v="2">cf97575349d47c17637e8ba53d2bea20</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 668 bytes --></enc></message>[0m
+10:16:41.084 [Client DEBUG] Business name of 6288221682848@s.whatsapp.net changed from  to Try Series Caladium, dispatching event[0m
+10:16:41.248 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3AA7218A1D30054718C2" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240630" type="media"><reporting><reporting_tag>0109179e2a96218ca5b0d8e73adceab2a5df88a5</reporting_tag><reporting_token v="2">8251d552535533766123caaf1ff77a56</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 668 bytes --></enc></message>[0m
+10:16:41.865 [Client DEBUG] Push name of 6288221682848@s.whatsapp.net changed from  to Try Series Caladium, dispatching event[0m
+10:16:41.935 [Client DEBUG] Got push name ~yuyun for 6281260878273@s.whatsapp.net in history sync[0m
+10:16:42.012 [Client DEBUG] Got push name zell for 6287848664741@s.whatsapp.net in history sync[0m
+10:16:42.085 [Client DEBUG] Got push name Gabriola for 6285817337084@s.whatsapp.net in history sync[0m
+10:16:42.865 [Client DEBUG] Got push name 🐉 for 6281362798692@s.whatsapp.net in history sync[0m
+10:16:42.927 [Client DEBUG] Got push name .. for 6282199015851@s.whatsapp.net in history sync[0m
+10:16:42.992 [Client DEBUG] Got push name All kece bngtt for 6287863857988@s.whatsapp.net in history sync[0m
+10:16:43.621 [Client/Recv DEBUG] <notification addressing_mode="pn" from="120363400948333360@g.us" id="810727017" notify="IOS." participant="6285545132923@s.whatsapp.net" t="1753240632" type="w:gp2"><remove prev_v_id="1753240201183577" v_id="1753240632418109"><participant jid="6285545132923@s.whatsapp.net"/></remove></notification>[0m
+10:16:44.409 [Client DEBUG] Got push name Lyaa sop buntut for 6283151720767@s.whatsapp.net in history sync[0m
+10:16:44.676 [Client DEBUG] Got push name . for 6287737768105@s.whatsapp.net in history sync[0m
+10:16:44.748 [Client DEBUG] Got push name ardyantofebri3 for 6285860117712@s.whatsapp.net in history sync[0m
+10:16:44.800 [Client DEBUG] Got push name Agis for 6283180052178@s.whatsapp.net in history sync[0m
+10:16:44.867 [Client DEBUG] Got push name gayatri mahajan for 917447524076@s.whatsapp.net in history sync[0m
+10:16:44.926 [Client DEBUG] Got push name Deep for 919168333905@s.whatsapp.net in history sync[0m
+10:16:44.993 [Client DEBUG] Got push name Gur for 6285702746192@s.whatsapp.net in history sync[0m
+10:16:45.050 [Client DEBUG] Got push name KEMENSOS for 6285343961281@s.whatsapp.net in history sync[0m
+10:16:45.109 [Client DEBUG] Got push name SUHERMAN S.H.I for 6287781471092@s.whatsapp.net in history sync[0m
+10:16:45.193 [Client DEBUG] Got push name Suprianto for 628971503700@s.whatsapp.net in history sync[0m
+10:16:45.259 [Client DEBUG] Got push name aryanto for 6285819739844@s.whatsapp.net in history sync[0m
+10:16:45.326 [Client DEBUG] Got push name abdul akbar for 6285715623163@s.whatsapp.net in history sync[0m
+10:16:45.384 [Client DEBUG] Got push name Indah Putri for 6289530516097@s.whatsapp.net in history sync[0m
+10:16:45.443 [Client DEBUG] Got push name MesyatsZaa for 6282241132265@s.whatsapp.net in history sync[0m
+10:16:45.546 [Client DEBUG] Got push name •••• for 62895428131762@s.whatsapp.net in history sync[0m
+10:16:45.609 [Client DEBUG] Got push name Muhamad aditya🤴🏼 for 6285725883957@s.whatsapp.net in history sync[0m
+10:16:45.675 [Client DEBUG] Got push name Nia for 6287768544723@s.whatsapp.net in history sync[0m
+10:16:45.734 [Client DEBUG] Got push name nur cholis for 6288290600866@s.whatsapp.net in history sync[0m
+10:16:45.792 [Client DEBUG] Got push name 🇮🇩Helwa🇸🇦 for 6281292076894@s.whatsapp.net in history sync[0m
+10:16:45.843[31m [Client ERROR] Failed to migrate signal store from 6288221682848@s.whatsapp.net to 154472978354244@lid: failed to migrate sessions: database is locked[0m
+10:16:45.872 [Client DEBUG] Got push name Tatan for 6289651587457@s.whatsapp.net in history sync[0m
+10:16:45.933 [Client DEBUG] Got push name pajri3589 for 6289646702274@s.whatsapp.net in history sync[0m
+10:16:46.000 [Client DEBUG] Got push name faayy for 628995572509@s.whatsapp.net in history sync[0m
+10:16:46.002[33m [Client WARN] Error decrypting message FC3CE03F0DEB96805E90573B6CFCB453 from 6288221682848@s.whatsapp.net in 120363323016426078@g.us: failed to decrypt group message: no sender key for 154472978354244_1:0 in 120363323016426078@g.us[0m
+10:16:46.002[33m [Client WARN] Node handling took 15.105188s for <message addressing_mode="pn" from="120363323016426078@g.us" id="FC3CE03F0DEB96805E90573B6CFCB453" notify="Try Series Caladium" participant="6288221682848@s.whatsapp.net" participant_lid="154472978354244@lid" t="1753240565" type="media" verified_level="unknown" verified_name="4360428249053710015"><multicast/><reporting><reporting_tag>0109738e320e684b87196de9da62c1543f3fb787</reporting_tag><reporting_token v="2">0bf9e6422cb0ed6b1e3352977d17712c</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a2708bf8db3abbdccd6c13c1206736d623a77612213547279205365726965732043616c616469756d1240374a9753ab5bdb8e775f0b82c90f9c17079e7c35e5d98b92631a0be02cb8d5f70cb227fa0720ddc653f8b3847b03319886a2904cae83db159ca51262306e4c00</verified_name><enc mediatype="image" type="skmsg" v="2"><!-- 1435 bytes --></enc></message>[0m
+10:16:46.059 [Client DEBUG] Got push name Dewi Nanda for 6289685059494@s.whatsapp.net in history sync[0m
+10:16:46.133 [Client DEBUG] Got push name Ichaa🌈 for 6285693326477@s.whatsapp.net in history sync[0m
+10:16:46.193 [Client DEBUG] Got push name winiyyy for 6285775121621@s.whatsapp.net in history sync[0m
+10:16:46.260 [Client DEBUG] Got push name Nurul Purnamasari for 6289503077101@s.whatsapp.net in history sync[0m
+10:16:46.317 [Client DEBUG] Got push name rusdiansyah for 6289661872517@s.whatsapp.net in history sync[0m
+10:16:46.383 [Client DEBUG] Got push name -_@ for 6285885834828@s.whatsapp.net in history sync[0m
+10:16:46.442 [Client DEBUG] Got push name lasmatrysia for 6285814221988@s.whatsapp.net in history sync[0m
+10:16:46.509 [Client DEBUG] Got push name Bunda Amel Iko 🥰 for 6281288098452@s.whatsapp.net in history sync[0m
+10:16:46.568 [Client DEBUG] Got push name eno for 6285811360318@s.whatsapp.net in history sync[0m
+10:16:46.633 [Client DEBUG] Got push name ibu💞 for 628993657174@s.whatsapp.net in history sync[0m
+10:16:46.685 [Client DEBUG] Got push name ❤️❤️❤️❤️❤️ for 6288901789171@s.whatsapp.net in history sync[0m
+10:16:46.743 [Client DEBUG] Got push name Ai Karyani for 6281513762446@s.whatsapp.net in history sync[0m
+10:16:46.809 [Client DEBUG] Got push name Rizki Amelia Agstn for 62895604158608@s.whatsapp.net in history sync[0m
+10:16:46.938 [Client DEBUG] Got push name purnomoidwan23 for 6287863143014@s.whatsapp.net in history sync[0m
+10:16:47.009 [Client DEBUG] Got push name Rndekptr for 6285882554407@s.whatsapp.net in history sync[0m
+10:16:47.067 [Client DEBUG] Got push name Tony Harsono for 6281383799288@s.whatsapp.net in history sync[0m
+10:16:47.134 [Client DEBUG] Got push name Santo San for 62895359823872@s.whatsapp.net in history sync[0m
+10:16:47.200 [Client DEBUG] Got push name PEMASANGAN WIFI INDIHOME for 6281385730490@s.whatsapp.net in history sync[0m
+10:16:47.267 [Client DEBUG] Got push name Putriwidia for 6285714738416@s.whatsapp.net in history sync[0m
+10:16:47.335 [Client DEBUG] Got push name . for 6288905365434@s.whatsapp.net in history sync[0m
+10:16:47.393 [Client DEBUG] Got push name AL MALIBARI for 6283841379909@s.whatsapp.net in history sync[0m
+10:16:47.459 [Client DEBUG] Got push name ♡ for 6282318303686@s.whatsapp.net in history sync[0m
+10:16:47.525 [Client DEBUG] Got push name ayah for 62895321301046@s.whatsapp.net in history sync[0m
+10:16:47.593 [Client DEBUG] Got push name Asep triyanto for 6281807187175@s.whatsapp.net in history sync[0m
+10:16:47.667 [Client DEBUG] Got push name 𝐂𝐒•𝐋𝐎𝐖𝐎𝐍𝐆𝐀𝐍 𝐏 for 6285821714017@s.whatsapp.net in history sync[0m
+10:16:47.734 [Client DEBUG] Got push name elkan for 6289627766005@s.whatsapp.net in history sync[0m
+10:16:47.809 [Client DEBUG] Got push name Piet Hein Wongkar for 6285398860361@s.whatsapp.net in history sync[0m
+10:16:47.883 [Client DEBUG] Got push name Galih for 6285774225499@s.whatsapp.net in history sync[0m
+10:16:47.949 [Client DEBUG] Got push name . for 6285142769276@s.whatsapp.net in history sync[0m
+10:16:48.008 [Client DEBUG] Got push name FAIZ for 62882008980260@s.whatsapp.net in history sync[0m
+10:16:48.035 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363398594733354@g.us" id="3A3E57CB640E8CA8930D" notify="amengg" participant="6285739747665@s.whatsapp.net" participant_lid="23266458644498@lid" t="1753240636" type="media"><reporting><reporting_tag>010943c80818247680d05ca75695744249a5bb4c</reporting_tag><reporting_token v="2">d9cf76934b38226cf83c461930b4d5d2</reporting_token></reporting><enc mediatype="sticker" type="skmsg" v="2"><!-- 668 bytes --></enc></message>[0m
+10:16:48.077 [Client DEBUG] Got push name Galih Trisna Priliyan for 6281542458312@s.whatsapp.net in history sync[0m
+10:16:48.142 [Client DEBUG] Got push name Citra 00 for 6285819441878@s.whatsapp.net in history sync[0m
+10:16:48.216 [Client DEBUG] Got push name 🍁 for 6283839312636@s.whatsapp.net in history sync[0m
+10:16:48.293 [Client DEBUG] Got push name Karsiti for 6281390493763@s.whatsapp.net in history sync[0m
+10:16:48.358 [Client DEBUG] Got push name 드위 사비트리 for 6281225625484@s.whatsapp.net in history sync[0m
+10:16:48.426 [Client DEBUG] Got push name Rutva Fashion Diwya Patel for 917265824296@s.whatsapp.net in history sync[0m
+10:16:48.492 [Client DEBUG] Got push name Rahayu, S.E, CTFAIA, CTIA for 6285732861612@s.whatsapp.net in history sync[0m
+10:16:48.559 [Client DEBUG] Got push name 🔱 for 6285282595884@s.whatsapp.net in history sync[0m
+10:16:48.633 [Client DEBUG] Got push name madina for 6282372737056@s.whatsapp.net in history sync[0m
+10:16:48.693 [Client DEBUG] Got push name haniharahapnetty for 6285758882796@s.whatsapp.net in history sync[0m
+10:16:48.759 [Client DEBUG] Got push name Erniyusra for 6285378995806@s.whatsapp.net in history sync[0m
+10:16:48.826 [Client DEBUG] Got push name ❤Quarni❤ for 6281343053244@s.whatsapp.net in history sync[0m
+10:16:48.892 [Client DEBUG] Got push name Sitti Nurhayati for 6285299185247@s.whatsapp.net in history sync[0m
+10:16:48.950 [Client DEBUG] Got push name Mulyana for 628812978287@s.whatsapp.net in history sync[0m
+10:16:49.010 [Client DEBUG] Got push name usfinnafiz2017 for 6285238636914@s.whatsapp.net in history sync[0m
+10:16:49.083 [Client DEBUG] Got push name 𝔐𝔲𝔰𝔱𝔞𝔣𝔞 𝔄𝔫𝔫𝔦𝔷𝔥𝔞𝔪𝔦 for 6281265726262@s.whatsapp.net in history sync[0m
+10:16:49.150 [Client DEBUG] Got push name regiryansyah488 for 6282175378193@s.whatsapp.net in history sync[0m
+10:16:49.216 [Client DEBUG] Got push name Susiani for 6281282417287@s.whatsapp.net in history sync[0m
+10:16:49.279 [Client DEBUG] Got push name Fauza Agustina for 6281322468160@s.whatsapp.net in history sync[0m
+10:16:49.343 [Client DEBUG] Got push name Sherly Syauta for 6282248883602@s.whatsapp.net in history sync[0m
+10:16:49.423 [Client DEBUG] Got push name yanti mima for 6285755702276@s.whatsapp.net in history sync[0m
+10:16:49.691 [Client DEBUG] Got push name Ahmad K. for 6285225799898@s.whatsapp.net in history sync[0m
+10:16:49.752 [Client DEBUG] Got push name Eno Sintiya for 6281218920008@s.whatsapp.net in history sync[0m
+10:16:49.809 [Client DEBUG] Got push name robert74yung for 6285360489981@s.whatsapp.net in history sync[0m
+10:16:49.874 [Client DEBUG] Got push name Teguh Hudi Utomo for 6281325547700@s.whatsapp.net in history sync[0m
+10:16:49.941 [Client DEBUG] Got push name nyai kanah for 6285811018225@s.whatsapp.net in history sync[0m
+10:16:50.008 [Client DEBUG] Got push name Guru Kreatif for 6281330041272@s.whatsapp.net in history sync[0m
+10:16:50.065 [Client DEBUG] Got push name Nur Hidayah for 6281392451978@s.whatsapp.net in history sync[0m
+10:16:50.125 [Client DEBUG] Got push name ahmadispd65@gmail.com for 6282132250389@s.whatsapp.net in history sync[0m
+10:16:50.192 [Client DEBUG] Got push name sapriani Telaumbanua for 6281370004342@s.whatsapp.net in history sync[0m
+10:16:50.249 [Client DEBUG] Got push name khotim for 6282373677474@s.whatsapp.net in history sync[0m
+10:16:50.308 [Client DEBUG] Got push name hendraa for 6282164501625@s.whatsapp.net in history sync[0m
+10:16:50.376 [Client DEBUG] Got push name ENI TRIATIN for 6285646672699@s.whatsapp.net in history sync[0m
+10:16:50.443 [Client DEBUG] Got push name pathonahkrui for 6282177994381@s.whatsapp.net in history sync[0m
+10:16:50.508 [Client DEBUG] Got push name Zainal Arifin for 6281342441972@s.whatsapp.net in history sync[0m
+10:16:50.582 [Client DEBUG] Got push name Budi Adi Purnomo for 6285856133371@s.whatsapp.net in history sync[0m
+10:16:50.657 [Client DEBUG] Got push name Sumiyati for 6285646887129@s.whatsapp.net in history sync[0m
+10:16:50.733 [Client DEBUG] Got push name Elkhaira for 6282168604949@s.whatsapp.net in history sync[0m
+10:16:50.791 [Client DEBUG] Got push name Ayu Perdana Kusumaningtya for 6285712845010@s.whatsapp.net in history sync[0m
+10:16:50.858 [Client DEBUG] Got push name Geksri Arini for 6287761211958@s.whatsapp.net in history sync[0m
+10:16:50.925 [Client DEBUG] Got push name Rutva fashion for 917859926936@s.whatsapp.net in history sync[0m
+10:16:50.991 [Client DEBUG] Got push name 💚 بسم الله... for 62881011020265@s.whatsapp.net in history sync[0m
+10:16:51.065 [Client DEBUG] Got push name Umm Abror for 6285269694296@s.whatsapp.net in history sync[0m
+10:16:51.135 [Client DEBUG] Got push name Edi Suherman for 6281314179686@s.whatsapp.net in history sync[0m
+10:16:51.199 [Client DEBUG] Got push name Hamba Allaah✈️🕋🕋🕋✈️ for 6281553155031@s.whatsapp.net in history sync[0m
+10:16:51.319 [Client DEBUG] Got push name . for 6282331701754@s.whatsapp.net in history sync[0m
+10:16:51.399 [Client DEBUG] Got push name Berik Said for 62895380267495@s.whatsapp.net in history sync[0m
+10:16:51.517 [Client DEBUG] Got push name ✒️ THULLABUL 'ILMI 📜 for 6285158322964@s.whatsapp.net in history sync[0m
+10:16:51.583 [Client DEBUG] Got push name Abu Hashif Al-Bimawi for 6285253777143@s.whatsapp.net in history sync[0m
+10:16:51.649 [Client DEBUG] Got push name PT PPI PT perintis pekerj for 6282147373727@s.whatsapp.net in history sync[0m
+10:16:51.716 [Client DEBUG] Got push name Sigit Pranata for 6282216868024@s.whatsapp.net in history sync[0m
+10:16:51.775 [Client DEBUG] Got push name Yusuf for 6282323688368@s.whatsapp.net in history sync[0m
+10:16:51.834 [Client DEBUG] Got push name rsellllll⚡ for 6282261237312@s.whatsapp.net in history sync[0m
+10:16:51.892 [Client DEBUG] Got push name aca😖 for 6282382120852@s.whatsapp.net in history sync[0m
+10:16:51.958 [Client DEBUG] Got push name Puspita for 6285766549518@s.whatsapp.net in history sync[0m
+10:16:52.032 [Client DEBUG] Got push name dinda🕸 for 6282377944554@s.whatsapp.net in history sync[0m
+10:16:52.093 [Client DEBUG] Got push name Gadis cilik🕸🕷 for 6283145896945@s.whatsapp.net in history sync[0m
+10:16:52.175 [Client DEBUG] Got push name Hosnol k.C for 6281233104008@s.whatsapp.net in history sync[0m
+10:16:52.241 [Client DEBUG] Got push name I love you but first for 6283142899091@s.whatsapp.net in history sync[0m
+10:16:52.308 [Client DEBUG] Got push name n for 6281772312780@s.whatsapp.net in history sync[0m
+10:16:52.375 [Client DEBUG] Got push name Arga Sasauw for 6282346236825@s.whatsapp.net in history sync[0m
+10:16:52.432 [Client DEBUG] Got push name Megawati Abdurahman for 6281244423781@s.whatsapp.net in history sync[0m
+10:16:52.492 [Client DEBUG] Got push name pulu pulu 🗿 for 6283894248231@s.whatsapp.net in history sync[0m
+10:16:52.558 [Client DEBUG] Got push name نور بوديمان for 6281235152156@s.whatsapp.net in history sync[0m
+10:16:52.624 [Client DEBUG] Got push name MP TROPAS85 for 6285604510971@s.whatsapp.net in history sync[0m
+10:16:52.681 [Client DEBUG] Got push name Ay for 6287856993460@s.whatsapp.net in history sync[0m
+10:16:52.749 [Client DEBUG] Got push name Ekha Jati Furniture for 628971546727@s.whatsapp.net in history sync[0m
+10:16:52.815 [Client DEBUG] Got push name saminganbae63 for 6282137111476@s.whatsapp.net in history sync[0m
+10:16:52.874 [Client DEBUG] Got push name WattyCUANTOPS for 628115406661@s.whatsapp.net in history sync[0m
+10:16:52.925 [Client/Send DEBUG] <receipt id="FC3CE03F0DEB96805E90573B6CFCB453" participant="6288221682848@s.whatsapp.net" to="120363323016426078@g.us" type="retry"><retry count="1" id="FC3CE03F0DEB96805E90573B6CFCB453" t="1753240565" v="1"/><registration>63220d56</registration><keys><type>05</type><identity>564e14e394b1c1e7405e964bab79ec4b1c37d028d2189a4d3e3afcf461590279</identity><key><id>000035</id><value>61030f45ea29c1568fa3d9fc6867af4031cfd4e219d8fe61d47ec28df50cca34</value></key><skey><id>000001</id><value>a0ff30eb946a0d446b6ea67f37c61056abfe8300298e3d7dacdb1d22fc0ae05f</value><signature>944ebdac352ee83549e6679935dde776672f5c790971caf73ad50651bf8bb366ba10a22f1a3e075ebffdf2140af694fb5c40b8d7482125986f26ac97b3f63c84</signature></skey><device-identity><!-- 185 bytes --></device-identity></keys></receipt>[0m
+10:16:52.991 [Client DEBUG] Got push name Abu Abdillah for 201556798180@s.whatsapp.net in history sync[0m
+10:16:53.066 [Client DEBUG] Got push name mochyasir659 for 6287863305256@s.whatsapp.net in history sync[0m
+10:16:53.125 [Client DEBUG] Got push name Andi, S.E., S.Pd for 6282235222431@s.whatsapp.net in history sync[0m
+10:16:53.162 [Client/Recv DEBUG] <ack class="receipt" from="120363323016426078@g.us" id="FC3CE03F0DEB96805E90573B6CFCB453" participant="6288221682848@s.whatsapp.net" type="retry"/>[0m
+10:16:53.192 [Client DEBUG] Got push name Mom Kenzie/Maxwell for 6281525837947@s.whatsapp.net in history sync[0m
+10:16:53.258 [Client DEBUG] Got push name Big Trader for 923044884425@s.whatsapp.net in history sync[0m
+10:16:53.331 [Client DEBUG] Got push name Rita Asmara 🥰🥰 for 6285319526113@s.whatsapp.net in history sync[0m
+10:16:53.408[31m [Client ERROR] Failed to store LID-PN mapping for 154472978354244@lid -> 6288221682848@s.whatsapp.net: database is locked[0m
+10:16:53.408 [Client DEBUG] Decrypting message from 6288221682848@s.whatsapp.net in 120363323016426078@g.us[0m
+10:16:53.408 [Client/Send DEBUG] <ack class="message" id="FC3CE03F0DEB96805E90573B6CFCB453" participant="6288221682848@s.whatsapp.net" to="120363323016426078@g.us"/>[0m
+10:16:53.411 [Client DEBUG] Got push name TiketinAja. ✈ for 201507693601@s.whatsapp.net in history sync[0m
+10:16:53.482 [Client DEBUG] Got push name Defriyano 😘 for 6282144963695@s.whatsapp.net in history sync[0m
+10:16:53.550 [Client DEBUG] Got push name لا تتحدث كثيرًا لأنن:💐✨ for 6285603799220@s.whatsapp.net in history sync[0m
+10:16:53.615 [Client DEBUG] Got push name Muhammad for 6281221463946@s.whatsapp.net in history sync[0m
+10:16:53.681 [Client DEBUG] Got push name Onlineshop for 6282228883955@s.whatsapp.net in history sync[0m
+10:16:53.749 [Client DEBUG] Got push name Baselika Taus.😇 for 6285236660713@s.whatsapp.net in history sync[0m
+10:16:53.818 [Client/Recv DEBUG] <message addressing_mode="pn" from="120363323016426078@g.us" id="FC3CE03F0DEB96805E90573B6CFCB453" notify="Try Series Caladium" participant="6288221682848@s.whatsapp.net" participant_lid="154472978354244@lid" t="1753240642" type="media" verified_level="unknown" verified_name="4360428249053710015"><multicast/><reporting><reporting_tag>01099e38aab4d1a74ddb1a59e1f26e26603a7e86</reporting_tag><reporting_token v="2">0bf9e6422cb0ed6b1e3352977d17712c</reporting_token></reporting><verified_name v="1" verified_level="unknown">0a2708bf8db3abbdccd6c13c1206736d623a77612213547279205365726965732043616c616469756d1240374a9753ab5bdb8e775f0b82c90f9c17079e7c35e5d98b92631a0be02cb8d5f70cb227fa0720ddc653f8b3847b03319886a2904cae83db159ca51262306e4c00</verified_name><enc count="1" mediatype="image" type="pkmsg" v="2"><!-- 1623 bytes --></enc></message>[0m
+10:16:53.824 [Client DEBUG] Got push name Azeez for 2349117804816@s.whatsapp.net in history sync[0m
+10:16:53.891 [Client DEBUG] Got push name بيت الأحجار الكريمة for 9613863658@s.whatsapp.net in history sync[0m
+10:16:53.975 [Client DEBUG] Got push name Pre🩵🩵🩵 for 6283857357200@s.whatsapp.net in history sync[0m
+10:16:54.048 [Client DEBUG] Got push name ~ for 6285704128764@s.whatsapp.net in history sync[0m
+10:16:54.115 [Client DEBUG] Got push name 27 12 2007 for 6282156522574@s.whatsapp.net in history sync[0m
+10:16:54.174 [Client DEBUG] Got push name Ishak🔥 for 6287824662766@s.whatsapp.net in history sync[0m
+10:16:54.232 [Client DEBUG] Got push name Yahya for 966541287551@s.whatsapp.net in history sync[0m
+10:16:54.306 [Client DEBUG] Got push name yudho adi for 6289688022998@s.whatsapp.net in history sync[0m
+10:16:54.365 [Client DEBUG] Got push name Bang Esa for 6281356673041@s.whatsapp.net in history sync[0m
+10:16:54.424 [Client DEBUG] Got push name MEGA INDRIANI for 6282344518854@s.whatsapp.net in history sync[0m
+10:16:54.498 [Client DEBUG] Got push name rupesh1213 for 916287518797@s.whatsapp.net in history sync[0m
+10:16:54.565 [Client DEBUG] Got push name sikunenggran for 6282280099940@s.whatsapp.net in history sync[0m
+10:16:54.633 [Client DEBUG] Got push name Elvin Store n Joki🌹 for 62815458331734@s.whatsapp.net in history sync[0m
+10:16:54.707 [Client DEBUG] Got push name Commander Diysar (PMC) for 6285763831471@s.whatsapp.net in history sync[0m
+10:16:54.772 [Client DEBUG] Got push name ak-12 for 6281258754938@s.whatsapp.net in history sync[0m
+10:16:54.834 [Client DEBUG] Got push name Nano puspo carito for 6285258527573@s.whatsapp.net in history sync[0m
+10:16:54.889 [Client DEBUG] Got push name fiskha4 for 62895352888400@s.whatsapp.net in history sync[0m
+10:16:54.955 [Client DEBUG] Got push name Lainiwarnita4 for 6282391684035@s.whatsapp.net in history sync[0m
+10:16:55.026 [Client DEBUG] Got push name Bang SMS for 6282241350865@s.whatsapp.net in history sync[0m
+10:16:55.093 [Client DEBUG] Got push name igri for 6282122718306@s.whatsapp.net in history sync[0m
+10:16:55.414 [Client DEBUG] Got push name 🪷 for 204333236940872@lid in history sync[0m
+10:16:55.483 [Client DEBUG] Got push name Charlie for 6282335363557@s.whatsapp.net in history sync[0m
+10:16:55.559 [Client DEBUG] Got push name ramilahmila718 for 6282268034809@s.whatsapp.net in history sync[0m
+10:16:55.631 [Client DEBUG] Got push name yulik sarofah 2 for 6282313703486@s.whatsapp.net in history sync[0m
+10:16:55.697 [Client DEBUG] Got push name かずき。アビ for 6285607454537@s.whatsapp.net in history sync[0m
+10:16:55.755 [Client DEBUG] Got push name Wan for 6283193812533@s.whatsapp.net in history sync[0m
+10:16:55.815 [Client DEBUG] Got push name Danis for 6281585533785@s.whatsapp.net in history sync[0m
+10:16:55.881 [Client DEBUG] Got push name Trust no one in your life for 94772763239@s.whatsapp.net in history sync[0m
+10:16:55.940 [Client DEBUG] Got push name abdullahidahirubature for 2347066739027@s.whatsapp.net in history sync[0m
+10:16:56.006 [Client DEBUG] Got push name srikandi0382 for 628895375596@s.whatsapp.net in history sync[0m
+10:16:56.072 [Client DEBUG] Got push name adetrypoetra for 6282169616842@s.whatsapp.net in history sync[0m
+10:16:56.155 [Client DEBUG] Got push name 🎀 for 6282197487216@s.whatsapp.net in history sync[0m
+10:16:56.222 [Client DEBUG] Got push name IWAN JUNI YANTO SARUMAHA, for 6285142194354@s.whatsapp.net in history sync[0m
+10:16:56.298 [Client DEBUG] Got push name adeline putri for 6287775654033@s.whatsapp.net in history sync[0m
+10:16:56.406 [Client DEBUG] Got push name Sabir❤️Hudha for 138981517877502@lid in history sync[0m
+10:16:56.514 [Client DEBUG] Got push name 𝐁𝐮𝐧𝐠 𝐑𝐚𝐧𝐭𝐨 for 6282219995212@s.whatsapp.net in history sync[0m
+10:16:56.582 [Client DEBUG] Got push name Ud for 6285274552423@s.whatsapp.net in history sync[0m
+10:16:56.649 [Client DEBUG] Got push name Adam for 96181108032@s.whatsapp.net in history sync[0m
+10:16:56.722 [Client DEBUG] Got push name أم عائشه for 201201547123@s.whatsapp.net in history sync[0m
+10:16:56.788 [Client DEBUG] Got push name كوافير يوسف for 9613850145@s.whatsapp.net in history sync[0m
+10:16:56.856 [Client DEBUG] Got push name nuying for 6283890122104@s.whatsapp.net in history sync[0m
+10:16:56.931 [Client DEBUG] Got push name Santri for 201508371302@s.whatsapp.net in history sync[0m
+10:16:57.015 [Client DEBUG] Got push name Lanange jagad👍💪💪 for 6281333150239@s.whatsapp.net in history sync[0m
+10:16:57.088 [Client DEBUG] Got push name www.successdatasub.com for 2349037089641@s.whatsapp.net in history sync[0m
+10:16:57.160 [Client DEBUG] Got push name Randi Masela for 6285657127110@s.whatsapp.net in history sync[0m
+10:16:57.233 [Client DEBUG] Got push name ndahh for 6282353029481@s.whatsapp.net in history sync[0m
+10:16:57.303 [Client DEBUG] Got push name RIZKIA, S.Kom. for 6282146771223@s.whatsapp.net in history sync[0m
+10:16:57.372 [Client DEBUG] Got push name A.jova Silitonga for 6285348612197@s.whatsapp.net in history sync[0m
+10:16:57.438 [Client DEBUG] Got push name Zeinab for 96171101730@s.whatsapp.net in history sync[0m
+10:16:57.499 [Client DEBUG] Got push name ∅ for 6282170947802@s.whatsapp.net in history sync[0m
+10:16:57.556 [Client DEBUG] Got push name vido for 6282325680023@s.whatsapp.net in history sync[0m
+10:16:57.622 [Client DEBUG] Got push name Ai for 6289518512589@s.whatsapp.net in history sync[0m
+10:16:57.689 [Client DEBUG] Got push name De/ad|Fall\en\ for 6287881606594@s.whatsapp.net in history sync[0m
+10:16:57.754 [Client DEBUG] Got push name remboiss for 6285800781955@s.whatsapp.net in history sync[0m
+10:16:57.817 [Client DEBUG] Got push name naura for 6287858864797@s.whatsapp.net in history sync[0m
+10:16:57.877 [Client DEBUG] Got push name asepsimaurang berem1994 for 628388601577@s.whatsapp.net in history sync[0m
+10:16:57.938 [Client DEBUG] Got push name Dodolan Sapi for 62881027528907@s.whatsapp.net in history sync[0m
+10:16:58.001 [Client DEBUG] Got push name Bryan for 6285890001122@s.whatsapp.net in history sync[0m
+10:16:58.066 [Client DEBUG] Got push name Dayat for 62881012622542@s.whatsapp.net in history sync[0m
+10:16:58.131 [Client DEBUG] Got push name Satya Aditya pratama for 6285706064759@s.whatsapp.net in history sync[0m
+10:16:58.204 [Client DEBUG] Got push name . for 6287848892923@s.whatsapp.net in history sync[0m
+10:16:58.272 [Client DEBUG] Got push name P for 6285602595303@s.whatsapp.net in history sync[0m
+10:16:58.416 [Client DEBUG] Got push name ‎ for 6282115657351@s.whatsapp.net in history sync[0m
+10:16:59.004 [Client DEBUG] Got push name ‎ ‎ ‎ ‎ for 6289677157851@s.whatsapp.net in history sync[0m

@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8080/send \
+  -H "Content-Type: application/json" \
+  -d '{"to":"628981389448@s.whatsapp.net","message":"Hello from API"}'
