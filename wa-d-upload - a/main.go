@@ -43,8 +43,7 @@ func main() {
 
 	http.HandleFunc("/login", loginHandler)
 	http.HandleFunc("/send", sendHandler)
-	http.HandleFunc("/webhook", webhookHandler)       // POST / DELETE
-	http.HandleFunc("/webhooks", listWebhooksHandler) // GET
+	http.HandleFunc("/webhook", webhookHandler) // GET / POST / DELETE
 	http.HandleFunc("/qr", qrHandler)
 	http.HandleFunc("/logout", logoutHandler)
 
@@ -56,7 +55,7 @@ func main() {
 	cli.Disconnect()
 }
 
-/* ---------- koneksi whatsapp ---------- */
+/* ---------- WhatsApp ---------- */
 func connectWhatsApp() {
 	if cli.Store.ID == nil {
 		qrChan, _ := cli.GetQRChannel(context.Background())
@@ -75,21 +74,20 @@ func connectWhatsApp() {
 	}
 }
 
-/* ---------- event handler ---------- */
+/* ---------- Events ---------- */
 func eventHandler(raw interface{}) {
 	switch v := raw.(type) {
 	case *events.Message:
 		if v.Info.IsFromMe {
 			return
 		}
-		decoded := decodeBase64Fields(v) // decode semua base64
+		decoded := decodeBase64Fields(v)
 		go pushWebhook(decoded)
 	}
 }
 
-/* ---------- decode base64 rekursif ---------- */
+/* ---------- Base64 Decoder ---------- */
 func decodeBase64Fields(in interface{}) interface{} {
-	// ubah ke JSON string lalu kembali ke interface{} agar mudah traverse
 	b, _ := json.Marshal(in)
 	var obj interface{}
 	_ = json.Unmarshal(b, &obj)
@@ -99,9 +97,7 @@ func decodeBase64Fields(in interface{}) interface{} {
 func decode(v interface{}) interface{} {
 	switch t := v.(type) {
 	case string:
-		// jika string adalah base64 valid → decode
 		if decoded, err := base64.StdEncoding.DecodeString(t); err == nil {
-			// coba parse kembali sebagai JSON string
 			var j interface{}
 			if json.Unmarshal(decoded, &j) == nil {
 				return j
@@ -121,17 +117,14 @@ func decode(v interface{}) interface{} {
 	return v
 }
 
-/* ---------- push ke semua webhook ---------- */
+/* ---------- Webhook Push ---------- */
 func pushWebhook(payload interface{}) {
 	whMutex.Lock()
 	defer whMutex.Unlock()
-
 	if len(webhookURLs) == 0 {
 		return
 	}
-
 	body, _ := json.Marshal(payload)
-
 	for _, url := range webhookURLs {
 		go func(u string) {
 			http.Post(u, "application/json", bytes.NewReader(body))
@@ -139,7 +132,7 @@ func pushWebhook(payload interface{}) {
 	}
 }
 
-/* ---------- login response ---------- */
+/* ---------- Handlers ---------- */
 type loginResp struct {
 	Status      string    `json:"status"`
 	QRFile      string    `json:"qr_file,omitempty"`
@@ -162,7 +155,6 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
 	_ = json.NewEncoder(w).Encode(resp)
 }
 
-/* ---------- send message ---------- */
 type sendPayload struct {
 	To      string `json:"to"`
 	Message string `json:"message"`
@@ -192,15 +184,14 @@ func sendHandler(w http.ResponseWriter, r *http.Request) {
 	_ = json.NewEncoder(w).Encode(map[string]string{"status": "sent"})
 }
 
-/* ---------- webhook CRUD ---------- */
-
-// POST   /webhook   { "url": "https://..." }   -> tambah
-// DELETE /webhook   { "url": "https://..." }   -> hapus
-// GET    /webhooks                 -> list
+/* ---------- Webhook CRUD ---------- */
 func webhookHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
-
 	switch r.Method {
+	case http.MethodGet:
+		whMutex.Lock()
+		defer whMutex.Unlock()
+		_ = json.NewEncoder(w).Encode(map[string][]string{"webhooks": webhookURLs})
 	case http.MethodPost:
 		var body struct {
 			URL string `json:"url"`
@@ -210,7 +201,6 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 		whMutex.Lock()
-		// hindari duplikat
 		found := false
 		for _, u := range webhookURLs {
 			if u == body.URL {
@@ -222,11 +212,7 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 			webhookURLs = append(webhookURLs, body.URL)
 		}
 		whMutex.Unlock()
-		_ = json.NewEncoder(w).Encode(map[string]interface{}{
-			"added": body.URL,
-			"total": len(webhookURLs),
-		})
-
+		_ = json.NewEncoder(w).Encode(map[string]interface{}{"added": body.URL, "total": len(webhookURLs)})
 	case http.MethodDelete:
 		var body struct {
 			URL string `json:"url"`
@@ -244,13 +230,9 @@ func webhookHandler(w http.ResponseWriter, r *http.Request) {
 		}
 		webhookURLs = newList
 		whMutex.Unlock()
-		_ = json.NewEncoder(w).Encode(map[string]interface{}{
-			"removed": body.URL,
-			"total":   len(webhookURLs),
-		})
-
+		_ = json.NewEncoder(w).Encode(map[string]interface{}{"removed": body.URL, "total": len(webhookURLs)})
 	default:
-		http.Error(w, `{"error":"POST / DELETE only"}`, 405)
+		http.Error(w, `{"error":"method not allowed"}`, 405)
 	}
 }
 
@@ -264,7 +246,6 @@ func listWebhooksHandler(w http.ResponseWriter, r *http.Request) {
 	_ = json.NewEncoder(w).Encode(map[string]interface{}{"webhooks": webhookURLs})
 }
 
-/* ---------- qr handler ---------- */
 func qrHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodGet {
 		http.Error(w, "GET only", 405)
@@ -273,7 +254,6 @@ func qrHandler(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "qr.png")
 }
 
-/* ---------- logout ---------- */
 func logoutHandler(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	if r.Method != http.MethodPost {
