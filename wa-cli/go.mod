@@ -1,8 +1,14 @@
-module main
+module wa-cli
 
-go 1.24.5
+go 1.23.0
 
-require go.mau.fi/whatsmeow v0.0.0-20250722194234-b61df67bf925
+toolchain go1.24.5
+
+require (
+	github.com/mattn/go-sqlite3 v1.14.28
+	github.com/mdp/qrterminal/v3 v3.2.1
+	go.mau.fi/whatsmeow v0.0.0-20250722194234-b61df67bf925
+)
 
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
@@ -18,6 +24,8 @@ require (
 	golang.org/x/exp v0.0.0-20250711185948-6ae5c78190dc // indirect
 	golang.org/x/net v0.42.0 // indirect
 	golang.org/x/sys v0.34.0 // indirect
+	golang.org/x/term v0.33.0 // indirect
 	golang.org/x/text v0.27.0 // indirect
 	google.golang.org/protobuf v1.36.6 // indirect
+	rsc.io/qr v0.2.0 // indirect
 )

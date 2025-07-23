@@ -7,7 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/mdp/qrterminal/v3" // tambahan agar QR tampil di terminal
+	_ "github.com/mattn/go-sqlite3" // PENTING: registrasi driver
+	"github.com/mdp/qrterminal/v3"  // tambahan agar QR tampil di terminal
 	"go.mau.fi/whatsmeow"
 	"go.mau.fi/whatsmeow/store/sqlstore"
 	"go.mau.fi/whatsmeow/types/events"
