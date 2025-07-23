@@ -76,15 +76,22 @@ func eventHandler(raw interface{}) {
 		if v.Info.IsFromMe {
 			return
 		}
-		text := v.Message.GetConversation()
-		if text == "" { // skip kalau kosong / null
-			return
-		}
-		payload := map[string]interface{}{
-			"from":    v.Info.Sender.String(),
-			"message": text,
-			"time":    v.Info.Timestamp.Unix(),
-		}
+		// text := v.Message.GetConversation()
+		// if text == "" { // skip kalau kosong / null
+		// 	return
+		// }
+		payload, _ := json.Marshal(v)
+		// chat := v.Info.Chat     // room / group / personal
+		// sender := v.Info.Sender // pengirim
+
+		// isGroup := chat.Server == "g.us"
+		// payload := map[string]interface{}{
+		// 	"from":    sender.String(), // pengirim
+		// 	"chat":    chat.String(),   // room / group
+		// 	"isGroup": isGroup,         // true untuk grup
+		// 	"message": text,
+		// 	"time":    v.Info.Timestamp.Unix(),
+		// }
 		go pushWebhook(payload)
 	}
 }
