@@ -12,7 +12,7 @@ curl -X POST http://localhost:8080/webhook \
 
 curl -X POST http://localhost:8080/send \
   -H "Content-Type: application/json" \
-  -d '{"to":"628981389448@s.whatsapp.net","message":"Hello from API v001"}'
+  -d '{"to":"628981389448@s.whatsapp.net","message":"Hello from API v002"}'
 
 curl -X POST http://localhost:8080/webhook \
   -H "Content-Type: application/json" \
