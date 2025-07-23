@@ -1,0 +1,19 @@
+go mod init wa-c
+edit go.mod "module" menjadi "module main"
+jalankan go mod tidy
+jalankan : $ CGO_ENABLED=1 go run .
+
+
+https://webhook.site/41b205c5-2148-4234-966e-79394d837a89
+
+curl -X POST http://localhost:8080/webhook \
+  -H "Content-Type: application/json" \
+  -d '"https://webhook.site/41b205c5-2148-4234-966e-79394d837a89"'
+
+curl -X POST http://localhost:8080/send \
+  -H "Content-Type: application/json" \
+  -d '{"to":"628981389448@s.whatsapp.net","message":"Hello from API v001"}'
+
+curl -X POST http://localhost:8080/webhook \
+  -H "Content-Type: application/json" \
+  -d '""'
